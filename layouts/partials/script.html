@@ -1,0 +1,25 @@
+{{ $script := resources.Get "js/script.js" }}
+{{ $js := slice $script  | resources.Concat "js/bundle.js" }}
+
+<script type="text/javascript" src="{{$js.RelPermalink}}"></script>
+{{- partial "mathjax.html" . -}}
+{{- range .Site.Params.customJS }}
+<script src="{{ . | relURL }}"></script>
+{{- end }}
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.0/lazysizes.min.js"></script>
+
+<script>
+    if('serviceWorker' in navigator) {
+        navigator.serviceWorker
+            .register('/sw.js', { scope: '/' })
+            .then(function(registration) {
+                console.log('Service Worker Registered');
+            });
+
+        navigator.serviceWorker
+            .ready
+            .then(function(registration) {
+                console.log('Service Worker Ready');
+            });
+    }
+</script>

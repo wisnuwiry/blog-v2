@@ -1,0 +1,20 @@
+<article class="feed__item">
+	<header class="wrapper">
+		<div class="feed__meta">
+			{{- if .Param "authorbox" }}
+				<img alt="{{ $.Site.Author.name }} avatar" data-src="{{ $.Site.Author.avatar | relURL }}" class="post__author-thumb lazyload" src="https://www.petanikode.com/img/placeholder.svg">
+				<a class="feed__author invert" href="/about">{{ $.Site.Author.name }}</a>
+				{{- partial "entry/meta/date.html" . }}
+			{{- end }}
+		</div>
+		<h2>
+			<a href="{{ .RelPermalink }}" class="invert">{{ .Title }}</a>
+		</h2>
+	</header>
+	<div class="wrapper">
+		{{- with .Summary }}
+		<p>{{ . }}</p>
+		{{- end }}
+		{{ partial "entry/tags.html" . }}
+	</div>
+</article>

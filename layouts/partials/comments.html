@@ -1,0 +1,33 @@
+{{ if (.Param "comments")}}
+<section class="post__comments">
+	<!-- {{ template "_internal/disqus.html" . }} -->
+	<div class="wrapper">
+		<h5>Comment:</h5>
+		<div id="commento"></div>
+		<script>
+		    var disqus_loaded = false;
+
+		    function publiiLoadDisqus() {
+
+		        var top = document.getElementById('commento').offsetTop;
+
+		        if (!disqus_loaded && (window.scrollY || window.pageYOffset) + window.innerHeight > top) {
+		            disqus_loaded = true;
+
+		            (function () {
+		                var d = document, s = d.createElement('script');
+		                s.src = 'https://cdn.commento.io/js/commento.js';
+		                (d.head || d.body).appendChild(s);
+		            })();
+		        }
+		    }
+
+		    publiiLoadDisqus();
+
+		    window.onscroll = function() {
+		        publiiLoadDisqus();
+		    };
+		</script>
+	</div>
+</section>
+{{ end }}

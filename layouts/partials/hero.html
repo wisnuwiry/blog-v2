@@ -1,0 +1,17 @@
+<div class="hero">
+	{{- partial "entry/featured.html" (dict "page" . "IsSingle" true) }}
+	<header class="hero__content">
+	<div class="wrapper">
+		<h1>
+	{{ if .IsHome }}
+		{{ .Site.Params.Hero.title }}
+	{{ else }}
+		{{ .Params.title }}
+	{{ end }}
+		</h1>
+	{{ if .IsHome }}
+		<p>{{ .Site.Params.Hero.desc }}</p>
+	{{ end }}
+		</div>
+	</header>
+</div>

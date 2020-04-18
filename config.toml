@@ -1,0 +1,108 @@
+baseURL                       = "https://www.wisnuwiry.my.id/"
+languageCode                  = "id_ID"
+title                         = "Wisnuwiry"
+
+[Author] # Used in authorbox
+  name                        = "Wisnu G. Saputra"
+  bio                         = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer."
+  avatar                      = "img/avatar.png"
+
+[Params]
+  description                 = "Responsive card-based & code-light Hugo theme" # Site Description. Used in meta description
+  copyright                   = "Wisnuwiry" # Copyright holder, otherwise will use .Site.Title
+  opengraph                   = true # Enable OpenGraph if true
+  twitter_cards               = true # Enable Twitter Cards if true
+  mainSections                = ["post"] # Set main page sections
+  dateFormat                  = "January 02, 2006" # Change the format of dates
+  # customCSS                 = ["css/custom.css"] # Include custom CSS files
+  customJS                    = []
+  mainMenuAlignment           = "right" # Align main menu (desktop version) to the right side
+  authorbox                   = true # Show authorbox at bottom of single pages if true
+  comments                    = true # Enable comments for all site pages
+  related                     = true # Enable Related content for single pages
+  relatedMax                  = 5
+  mathjax                     = false # Enable MathJax for all site pages
+  hideNoPostsWarning          = false # Don't show no posts empty state warning in main page, if true
+  fontUnit                    = "em"
+  largestFontSize             = 2.5
+  smallestFontSize            = 1
+  googleSearchConsole         = "EHmgFXPbIXwG8bY6XRaQ4I7-YRcAFjoSc3NODdEm3_A"
+
+
+[Params.Hero]
+  title                       = "Personal Blog By WisnuWiry"
+  desc                        = "Welcome to my Blog :)"
+
+[Params.Entry]
+  meta                        = ["date", "categories"] # Enable meta fields in given order
+  toc                         = true # Enable Table of Contents
+  tocOpen                     = false # Open Table of Contents block. Optional
+
+[Params.Featured]
+  previewOnly                 = false # Show only preview featured image
+
+[Params.Breadcrumb]
+  enable                      = true # Enable breadcrumb block globally
+  homeText                    = "Home" # Home node text
+
+[Params.Social]
+  twitter                     = "wisnuwiry"
+  telegram                    = "wisnuwiry"
+  instagram                   = "wisnuwiry"
+  linkedin                    = "wisnu-saputra"
+  github                      = "wisnuwiry"
+  medium                      = "wisnuwiry"
+
+[Params.Share] # Entry Share block
+  facebook                    = true
+  twitter                     = true
+  reddit                      = true
+  telegram                    = true
+  linkedin                    = true
+  pinterest                   = true
+
+# Web App Manifest settings
+# https://www.w3.org/TR/appmanifest/
+# https://developers.google.com/web/fundamentals/web-app-manifest/
+[Params.Manifest]
+  name                        = "Wisnuwiry"
+  shortName                   = "Wisnuwiry"
+  display                     = "browser"
+  startUrl                    = "/"
+  backgroundColor             = "#2a2a2a"
+  themeColor                  = "#1b1b1b"
+  description                 = "Responsive card-based & code-light Hugo theme"
+  orientation                 = "portrait"
+  scope                       = "/"
+
+[outputFormats]
+  [outputFormats.MANIFEST]
+    mediaType                 = "application/json"
+    baseName                  = "manifest"
+    isPlainText               = true
+    notAlternative            = true
+
+[outputs]
+  home                        = ["HTML", "RSS", "MANIFEST"]
+
+enableRobotsTXT               = true
+
+# Pagination
+Paginate                      = 3
+
+# Google Analityc
+googleAnalytics = "UA-147337173-1" 
+
+# Code
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = false
+    style = "dracula"
+    tabWidth = 4

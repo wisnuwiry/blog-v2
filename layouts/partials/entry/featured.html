@@ -1,0 +1,40 @@
+{{- with .page.Resources.ByType "image" }}
+	{{- $link := $.link -}}
+	{{- $IsSingle := $.IsSingle -}}
+	{{- $match := $.page.Params.featured -}}
+	{{- $featuredMap := "" -}}
+
+	{{- $IsMap := reflect.IsMap $match -}}
+	{{- if $IsMap }}
+		{{- $featuredMap = $match -}}
+		{{- $match = $match.url -}}
+	{{- end }}
+
+	{{- $featured := .GetMatch ($match | default "{featured.*,thumbnail.*}") -}}
+	{{ if and $featured (not (and $IsSingle ($.page.Param "featured.previewOnly"))) }}
+		<figure class="hero__image hero__image--overlay">
+				<img class="hero__image-img lazyload" data-src="{{ $featured.RelPermalink }}" src="https://www.petanikode.com/img/placeholder.svg" alt="
+					{{- with $featuredMap -}}
+						{{- .alt | default $featured.Title -}}
+					{{- else -}}
+						{{- $featured.Title -}}
+					{{- end -}}
+				"/>
+			{{- with $link }}</a>{{ end }}
+			{{- with $IsSingle }}
+				{{- with $featuredMap }}
+					{{- if or .caption .credit }}
+					<figcaption>
+						{{- with .caption }}
+							{{ . | markdownify }}
+						{{- end }}
+						{{- with .credit }}
+							{{ . | markdownify }}
+						{{- end }}
+					</figcaption>
+					{{- end }}
+				{{- end }}
+			{{- end }}
+		</figure>
+	{{- end }}
+{{- end }}
