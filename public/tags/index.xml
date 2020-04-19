@@ -2,39 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Wisnuwiry</title>
-    <link>https://www.wisnuwiry.my.id/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Wisnuwiry</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>id_ID</language>
+    <language>id</language>
     <lastBuildDate>Sat, 21 Mar 2020 17:33:17 +0700</lastBuildDate>
     
-	<atom:link href="https://www.wisnuwiry.my.id/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>hugo</title>
-      <link>https://www.wisnuwiry.my.id/tags/hugo/</link>
+      <title>blog</title>
+      <link>http://localhost:1313/tags/blog/</link>
       <pubDate>Sat, 21 Mar 2020 17:33:17 +0700</pubDate>
       
-      <guid>https://www.wisnuwiry.my.id/tags/hugo/</guid>
+      <guid>http://localhost:1313/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>http://localhost:1313/tags/hugo/</link>
+      <pubDate>Sat, 21 Mar 2020 17:33:17 +0700</pubDate>
+      
+      <guid>http://localhost:1313/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>personal site</title>
+      <link>http://localhost:1313/tags/personal-site/</link>
+      <pubDate>Sat, 21 Mar 2020 17:33:17 +0700</pubDate>
+      
+      <guid>http://localhost:1313/tags/personal-site/</guid>
       <description></description>
     </item>
     
     <item>
       <title>web</title>
-      <link>https://www.wisnuwiry.my.id/tags/web/</link>
+      <link>http://localhost:1313/tags/web/</link>
       <pubDate>Sat, 21 Mar 2020 17:33:17 +0700</pubDate>
       
-      <guid>https://www.wisnuwiry.my.id/tags/web/</guid>
+      <guid>http://localhost:1313/tags/web/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cerita</title>
-      <link>https://www.wisnuwiry.my.id/tags/cerita/</link>
+      <link>http://localhost:1313/tags/cerita/</link>
       <pubDate>Fri, 20 Mar 2020 18:48:49 +0700</pubDate>
       
-      <guid>https://www.wisnuwiry.my.id/tags/cerita/</guid>
+      <guid>http://localhost:1313/tags/cerita/</guid>
       <description></description>
     </item>
     

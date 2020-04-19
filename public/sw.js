@@ -12,7 +12,7 @@ const BASE_CACHE_FILES = [
 const OFFLINE_CACHE_FILES = [
     '/css/bundle.css',
     '/js/bundle.js',
-    '/offline/index.html',
+    '/index.html',
 ];
 
 const NOT_FOUND_CACHE_FILES = [

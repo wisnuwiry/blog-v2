@@ -26,8 +26,7 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="{{ "/icons/favicon-16x16.png" | relURL }}">
 	<link rel="shortcut icon" href="{{ "/icons/favicon.ico" | relURL }}" type="image/x-icon">
 	<link rel="icon" href="{{ "/icons/favicon.ico" | relURL }}" type="image/x-icon">
-	<meta name="msapplication-TileColor" content="#0d2538">
-	<meta name="theme-color" content="#ffffff">
+	<meta name="msapplication-TileColor" content="{{ .Site.Params.Manifest.themeColor | default "#1b1b1b" }}">
 	{{- with .OutputFormats.Get "rss" }}
 	{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 	{{- end }}

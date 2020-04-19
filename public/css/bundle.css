@@ -379,6 +379,7 @@ button {
   transition: all .24s ease-out;
   text-transform: uppercase;
   vertical-align: middle;
+  margin: 8px 0;
   will-change: transform; }
   @media all and (max-width: 19.9375em) {
     .btn, [type=button],
@@ -1213,12 +1214,12 @@ textarea {
 .feed__image {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
-  margin: calc(1.7rem + 1vw) auto;
-  max-width: calc(42rem + 20%);
-  padding: 0 6vw; }
+  margin: 1rem auto;
+  max-width: calc(42rem + 20%);}
   .feed__image > img {
     display: inline-block;
     height: auto;
+    border-radius: 0.6em;
     width: 100%; }
 
 .feed__meta {
@@ -1560,6 +1561,7 @@ textarea {
     -webkit-box-flex: 1;
     -ms-flex: 1 0 auto;
     flex: 1 0 auto;
+    width: auto;;
     margin-right: 0.56667rem; } }
 
 #disqus_thread {

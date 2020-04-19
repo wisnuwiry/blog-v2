@@ -1,5 +1,5 @@
 ---
-title: Personal Site Blog & Portofolio
+title: Personal Site Blog dan Portofolio
 date: 2020-03-21T17:33:17+07:00
 authorBox: false
 tags:
@@ -21,6 +21,7 @@ Pada project saya kali ini dibuat dengan Hugo (Static site generator).
 - Fast Loading
 - Available PWA
 - Full Responsive
+- Lazy load image
 
 
 ### Detail or Download 

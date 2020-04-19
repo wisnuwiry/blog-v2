@@ -1,8 +1,8 @@
 {
   "name": "Wisnuwiry",
   "short_name": "Wisnuwiry",
-  "display": "browser",
-  "start_url": "/",
+  "display": "standalone",
+  "start_url": "/?utm_source=homescreen",
   "background_color": "#FFFFFF",
   "theme_color": "#0d2538",
   "description": "Personal Site By Wisnuwiry",

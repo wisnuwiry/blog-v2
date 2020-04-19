@@ -1,5 +1,5 @@
-baseURL                       = "https://www.wisnuwiry.my.id/"
-languageCode                  = "id_ID"
+baseURL                       = "http://localhost:1313/"
+languageCode                  = "id"
 title                         = "Wisnuwiry"
 
 [Author] # Used in authorbox
@@ -68,8 +68,8 @@ title                         = "Wisnuwiry"
 [Params.Manifest]
   name                        = "Wisnuwiry"
   shortName                   = "Wisnuwiry"
-  display                     = "browser"
-  startUrl                    = "/"
+  display                     = "standalone"
+  startUrl                    = "/?utm_source=homescreen"
   backgroundColor             = "#FFFFFF"
   themeColor                  = "#0d2538"
   description                 = "Personal Site By Wisnuwiry"
@@ -97,6 +97,21 @@ googleAnalytics               = "UA-147337173-1"
 # Code
 [markup]
   defaultMarkdownHandler      = "blackfriday"
+  [markup.blackFriday]
+    angledQuotes              = false
+    footnoteAnchorPrefix      = ""
+    footnoteReturnLinkContents= ""
+    fractions                 = true
+    hrefTargetBlank           = false
+    latexDashes               = true
+    nofollowLinks             = false
+    noreferrerLinks           = false
+    plainIDAnchors            = true
+    skipHTML                  = false
+    smartDashes               = true
+    smartypants               = true
+    smartypantsQuotesNBSP     = false
+    taskLists                 = true
   [markup.highlight]
     codeFences                = true
     guessSyntax               = false

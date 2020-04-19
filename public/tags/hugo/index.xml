@@ -2,25 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hugo on Wisnuwiry</title>
-    <link>https://www.wisnuwiry.my.id/tags/hugo/</link>
+    <link>http://localhost:1313/tags/hugo/</link>
     <description>Recent content in hugo on Wisnuwiry</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>id_ID</language>
+    <language>id</language>
     <lastBuildDate>Sat, 21 Mar 2020 17:33:17 +0700</lastBuildDate>
     
-	<atom:link href="https://www.wisnuwiry.my.id/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Membuat Personal Blog/Portofolio dengan Hugo</title>
-      <link>https://www.wisnuwiry.my.id/post/membuat-blog-dengan-hugo/</link>
+      <link>http://localhost:1313/post/membuat-blog-dengan-hugo/</link>
       <pubDate>Sat, 21 Mar 2020 17:33:17 +0700</pubDate>
       
-      <guid>https://www.wisnuwiry.my.id/post/membuat-blog-dengan-hugo/</guid>
+      <guid>http://localhost:1313/post/membuat-blog-dengan-hugo/</guid>
       <description>Sebelumnya apakah sudah tahu tentang Blog Personal / Web Portofolio?
 Jika belum mari kita bahas.
 Web Blog Personal biasanya diginukan sebagai catatan blog pribadi seseorang bisa juga blog tersebut dijadikan sebagai web portofolio mereka seperti pengalaman pribadi, hasil project, menceritakan keseharian, dan lain-lain selama ini yang dikerjakan.
 Tapi kali ini kita akan membahas dan mencoba bagaimana membuat sebuah blog pribadi/personal dengan Hugo dan Github Pages. Tapi bagaimana jika OS saya berbeda dengan di tutorial ini?</description>
+    </item>
+    
+    <item>
+      <title>Personal Site Blog &amp; Portofolio</title>
+      <link>http://localhost:1313/project/personal-site-portofolio/</link>
+      <pubDate>Sat, 21 Mar 2020 17:33:17 +0700</pubDate>
+      
+      <guid>http://localhost:1313/project/personal-site-portofolio/</guid>
+      <description>Overview Pada project saya kali ini dibuat dengan Hugo (Static site generator).
+Feature:  Fast Loading Available PWA Full Responsive Lazy load image  Detail or Download Anda bisa melihat hasil project saya dan jika ingin kontribusi, ataupun ingin membuat web seperti saya ini bisa check di github saya:
+Show Detail</description>
     </item>
     
   </channel>

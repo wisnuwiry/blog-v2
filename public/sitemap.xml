@@ -3,71 +3,79 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.wisnuwiry.my.id/tags/hugo/</loc>
+    <loc>http://localhost:1313/tags/blog/</loc>
     <lastmod>2020-03-21T17:33:17+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.wisnuwiry.my.id/post/membuat-blog-dengan-hugo/</loc>
+    <loc>http://localhost:1313/tags/hugo/</loc>
     <lastmod>2020-03-21T17:33:17+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.wisnuwiry.my.id/post/</loc>
+    <loc>http://localhost:1313/post/membuat-blog-dengan-hugo/</loc>
     <lastmod>2020-03-21T17:33:17+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.wisnuwiry.my.id/tags/</loc>
+    <loc>http://localhost:1313/tags/personal-site/</loc>
     <lastmod>2020-03-21T17:33:17+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.wisnuwiry.my.id/tags/web/</loc>
+    <loc>http://localhost:1313/project/personal-site-portofolio/</loc>
     <lastmod>2020-03-21T17:33:17+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.wisnuwiry.my.id/</loc>
+    <loc>http://localhost:1313/post/</loc>
     <lastmod>2020-03-21T17:33:17+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.wisnuwiry.my.id/tags/cerita/</loc>
+    <loc>http://localhost:1313/project/</loc>
+    <lastmod>2020-03-21T17:33:17+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2020-03-21T17:33:17+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/web/</loc>
+    <lastmod>2020-03-21T17:33:17+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2020-03-21T17:33:17+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/cerita/</loc>
     <lastmod>2020-03-20T18:48:49+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.wisnuwiry.my.id/post/mulai-belajar-pemrograman/</loc>
+    <loc>http://localhost:1313/post/mulai-belajar-pemrograman/</loc>
     <lastmod>2020-03-20T18:48:49+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.wisnuwiry.my.id/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url>
   
   <url>
-    <loc>https://www.wisnuwiry.my.id/project/about/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url>
   
   <url>
-    <loc>https://www.wisnuwiry.my.id/categories/</loc>
+    <loc>http://localhost:1313/contact/</loc>
   </url>
   
   <url>
-    <loc>https://www.wisnuwiry.my.id/contact/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.wisnuwiry.my.id/project/contact/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.wisnuwiry.my.id/project/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.wisnuwiry.my.id/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
   </url>
   
 </urlset>
