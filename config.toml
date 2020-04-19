@@ -4,15 +4,16 @@ title                         = "Wisnuwiry"
 
 [Author] # Used in authorbox
   name                        = "Wisnu G. Saputra"
-  bio                         = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer."
+  bio                         = "Flutter | Mobile Tech Entuthiast. Seorang pelajar/mahasiswa yang suka dengan teknolgi IT. Saya juga suka blogging dan mempelajari hal teknologi baru."
   avatar                      = "img/avatar.png"
 
 [Params]
-  description                 = "Responsive card-based & code-light Hugo theme" # Site Description. Used in meta description
+  description                 = "Sebuah catatan dan blog pribadi saya. Saya juga akan membagi tentang pengalaman saya dan teknologi-teknolgi yang saya gunakan/pelajari atau yang sedang populer." # Site Description. Used in meta description
   copyright                   = "Wisnuwiry" # Copyright holder, otherwise will use .Site.Title
   opengraph                   = true # Enable OpenGraph if true
   twitter_cards               = true # Enable Twitter Cards if true
   mainSections                = ["post"] # Set main page sections
+  projectSections             = ["project"] # Set main page sections
   dateFormat                  = "January 02, 2006" # Change the format of dates
   # customCSS                 = ["css/custom.css"] # Include custom CSS files
   customJS                    = []
@@ -69,9 +70,9 @@ title                         = "Wisnuwiry"
   shortName                   = "Wisnuwiry"
   display                     = "browser"
   startUrl                    = "/"
-  backgroundColor             = "#2a2a2a"
-  themeColor                  = "#1b1b1b"
-  description                 = "Responsive card-based & code-light Hugo theme"
+  backgroundColor             = "#FFFFFF"
+  themeColor                  = "#0d2538"
+  description                 = "Personal Site By Wisnuwiry"
   orientation                 = "portrait"
   scope                       = "/"
 
@@ -91,18 +92,18 @@ enableRobotsTXT               = true
 Paginate                      = 3
 
 # Google Analityc
-googleAnalytics = "UA-147337173-1" 
+googleAnalytics               = "UA-147337173-1" 
 
 # Code
 [markup]
-  defaultMarkdownHandler = "goldmark"
+  defaultMarkdownHandler      = "blackfriday"
   [markup.highlight]
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = ""
-    lineNoStart = 1
-    lineNos = true
-    lineNumbersInTable = false
-    noClasses = false
-    style = "dracula"
-    tabWidth = 4
+    codeFences                = true
+    guessSyntax               = false
+    hl_Lines                  = ""
+    lineNoStart               = 1
+    lineNos                   = false
+    lineNumbersInTable        = false
+    noClasses                 = false
+    style                     = "dracula"
+    tabWidth                  = 4

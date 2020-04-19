@@ -1,13 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Wisnuwiry</title><link>https://www.wisnuwiry.my.id/post/</link><description>Recent content in Posts on Wisnuwiry</description><generator>Hugo -- gohugo.io</generator><language>id_ID</language><lastBuildDate>Fri, 17 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.wisnuwiry.my.id/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Example Post</title><link>https://www.wisnuwiry.my.id/post/example-post/</link><pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate><guid>https://www.wisnuwiry.my.id/post/example-post/</guid><description>Hello World &amp;lt;html&amp;gt; &amp;lt;/html&amp;gt; Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description></item><item><title>Basic HTML Elements</title><link>https://www.wisnuwiry.my.id/post/basic-elements/</link><pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate><guid>https://www.wisnuwiry.my.id/post/basic-elements/</guid><description>&lt;p>The main purpose of this article is to make sure that all basic HTML Elements are decorated with CSS so as to not miss any possible elements when creating new themes for Hugo.&lt;/p></description></item><item><title>MathJax</title><link>https://www.wisnuwiry.my.id/post/mathjax/</link><pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate><guid>https://www.wisnuwiry.my.id/post/mathjax/</guid><description>&lt;p>MathJax JavaScript library allows you to include mathematics in your web pages for viewing in any modern browser.&lt;/p></description></item><item><title>Translation Support</title><link>https://www.wisnuwiry.my.id/post/translation/</link><pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate><guid>https://www.wisnuwiry.my.id/post/translation/</guid><description>&lt;p>With Hugo i18n possibilities, you can easily have a website in your language. This Hugo theme is ready to be translated into other languages. You can create a special file that contains translated text to show the visitor instead of English.&lt;/p></description></item><item><title>Featured Images</title><link>https://www.wisnuwiry.my.id/post/featured-images/</link><pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate><guid>https://www.wisnuwiry.my.id/post/featured-images/</guid><description>&lt;p>Featured image is the image that appears on summaries at the list pages and the top of content pages. Every content page
-in this theme can have a featured image.&lt;/p></description></item><item><title>Hugo Syntax Highlighting</title><link>https://www.wisnuwiry.my.id/post/syntax-highlighting/</link><pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate><guid>https://www.wisnuwiry.my.id/post/syntax-highlighting/</guid><description>&lt;p>You can have code snippets highlighted so that they are easier to read on your site using Chroma, Hugo's default syntax highlighter. It is built in Go lang and is really, really fast – and for the most important parts compatible with Pygments. Chroma takes source code and other structured text and converts it into syntax highlighted HTML, ANSI-coloured text, etc.&lt;/p></description></item><item><title>Creating a New Theme</title><link>https://www.wisnuwiry.my.id/post/creating-a-new-theme/</link><pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate><guid>https://www.wisnuwiry.my.id/post/creating-a-new-theme/</guid><description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I'll explain how Hugo uses templates and how you can organize your templates to create a theme. I won't cover using CSS to style your theme.
-We'll start with creating a new site with a very basic template.</description></item><item><title>(Hu)go Template Primer</title><link>https://www.wisnuwiry.my.id/post/goisforlovers/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://www.wisnuwiry.my.id/post/goisforlovers/</guid><description>&lt;p>Hugo uses the excellent &lt;a href="https://golang.org/">Go&lt;/a> &lt;a href="https://golang.org/pkg/html/template/">html/template&lt;/a> library for
-its template engine. It is an extremely lightweight engine that provides a very
-small amount of logic. In our experience that it is just the right amount of
-logic to be able to create a good static website. If you have used other
-template systems from different languages or frameworks you will find a lot of
-similarities in Go templates.&lt;/p></description></item><item><title>Getting Started with Hugo</title><link>https://www.wisnuwiry.my.id/post/hugoisforlovers/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://www.wisnuwiry.my.id/post/hugoisforlovers/</guid><description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at Install Hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
-Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313 Corresponding pseudo commands:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Wisnuwiry</title>
+    <link>https://www.wisnuwiry.my.id/post/</link>
+    <description>Recent content in Posts on Wisnuwiry</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id_ID</language>
+    <lastBuildDate>Sat, 21 Mar 2020 17:33:17 +0700</lastBuildDate>
+    
+	<atom:link href="https://www.wisnuwiry.my.id/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Membuat Personal Blog/Portofolio dengan Hugo</title>
+      <link>https://www.wisnuwiry.my.id/post/membuat-blog-dengan-hugo/</link>
+      <pubDate>Sat, 21 Mar 2020 17:33:17 +0700</pubDate>
+      
+      <guid>https://www.wisnuwiry.my.id/post/membuat-blog-dengan-hugo/</guid>
+      <description>Sebelumnya apakah sudah tahu tentang Blog Personal / Web Portofolio?
+Jika belum mari kita bahas.
+Web Blog Personal biasanya diginukan sebagai catatan blog pribadi seseorang bisa juga blog tersebut dijadikan sebagai web portofolio mereka seperti pengalaman pribadi, hasil project, menceritakan keseharian, dan lain-lain selama ini yang dikerjakan.
+Tapi kali ini kita akan membahas dan mencoba bagaimana membuat sebuah blog pribadi/personal dengan Hugo dan Github Pages. Tapi bagaimana jika OS saya berbeda dengan di tutorial ini?</description>
+    </item>
+    
+    <item>
+      <title>Memulai Belajar Pemrograman dengan tidak punya apa-apa</title>
+      <link>https://www.wisnuwiry.my.id/post/mulai-belajar-pemrograman/</link>
+      <pubDate>Fri, 20 Mar 2020 18:48:49 +0700</pubDate>
+      
+      <guid>https://www.wisnuwiry.my.id/post/mulai-belajar-pemrograman/</guid>
+      <description>Apa itu pemrogaaman? Pemrograman atau biasa disebut dengan coding yaitu sebuah proses membuat sebuah software atau aplikasi yang bertujuan atau dengan harap software tersebut bisa berguna untuk semua orang, syukur-syukur bisa mendapatkan profit dari software tersebut. Dan biasanya seseorang yang melakukan pemrograman atau coding disebut Programmer, Developer, Coder, etc.
+Belajar pemrograman/coding wajib laptop atau komputer? Bagi saya itu adalah mitos karena hal utama yang harus dimiliki sebagai calon programmer adalah sebuah niat yang sungguh-sungguh, walapun punya sebuah fasilitas tapi tanpa disertai sebuah niat yang sungguh-sungguh sebuah cita-cita akan sirna.</description>
+    </item>
+    
+  </channel>
+</rss>

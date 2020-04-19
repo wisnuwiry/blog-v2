@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cerita on Wisnuwiry</title>
+    <link>https://www.wisnuwiry.my.id/tags/cerita/</link>
+    <description>Recent content in cerita on Wisnuwiry</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id_ID</language>
+    <lastBuildDate>Fri, 20 Mar 2020 18:48:49 +0700</lastBuildDate>
+    
+	<atom:link href="https://www.wisnuwiry.my.id/tags/cerita/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Memulai Belajar Pemrograman dengan tidak punya apa-apa</title>
+      <link>https://www.wisnuwiry.my.id/post/mulai-belajar-pemrograman/</link>
+      <pubDate>Fri, 20 Mar 2020 18:48:49 +0700</pubDate>
+      
+      <guid>https://www.wisnuwiry.my.id/post/mulai-belajar-pemrograman/</guid>
+      <description>Apa itu pemrogaaman? Pemrograman atau biasa disebut dengan coding yaitu sebuah proses membuat sebuah software atau aplikasi yang bertujuan atau dengan harap software tersebut bisa berguna untuk semua orang, syukur-syukur bisa mendapatkan profit dari software tersebut. Dan biasanya seseorang yang melakukan pemrograman atau coding disebut Programmer, Developer, Coder, etc.
+Belajar pemrograman/coding wajib laptop atau komputer? Bagi saya itu adalah mitos karena hal utama yang harus dimiliki sebagai calon programmer adalah sebuah niat yang sungguh-sungguh, walapun punya sebuah fasilitas tapi tanpa disertai sebuah niat yang sungguh-sungguh sebuah cita-cita akan sirna.</description>
+    </item>
+    
+  </channel>
+</rss>

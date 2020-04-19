@@ -1,1 +1,23 @@
-{"name":"Wisnuwiry","short_name":"Wisnuwiry","display":"browser","start_url":"/","background_color":"#2a2a2a","theme_color":"#1b1b1b","description":"Responsive card-based & code-light Hugo theme","orientation":"portrait","scope":"/","icons":[{"src":"icons/192.png","sizes":"192x192","type":"image/png"},{"src":"icons/512.png","sizes":"512x512","type":"image/png"}]}
+{
+  "name": "Wisnuwiry",
+  "short_name": "Wisnuwiry",
+  "display": "browser",
+  "start_url": "/",
+  "background_color": "#FFFFFF",
+  "theme_color": "#0d2538",
+  "description": "Personal Site By Wisnuwiry",
+  "orientation": "portrait",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

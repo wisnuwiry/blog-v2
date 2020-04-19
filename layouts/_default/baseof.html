@@ -21,8 +21,13 @@
 	{{- range .Site.Params.customCSS }}
 	<link rel="stylesheet" href="{{ . | relURL }}">
 	{{- end }}
-	<link rel="icon" href="{{ "icons/16.png" | relURL }}" sizes="16x16" type="image/png">
-	<link rel="icon" href="{{ "icons/32.png" | relURL }}" sizes="32x32" type="image/png">
+	<link rel="apple-touch-icon" sizes="180x180" href="{{ "/icons/apple-touch-icon.png" | relURL }}">
+	<link rel="icon" type="image/png" sizes="32x32" href="{{ "/icons/favicon-32x32.png" | relURL }}">
+	<link rel="icon" type="image/png" sizes="16x16" href="{{ "/icons/favicon-16x16.png" | relURL }}">
+	<link rel="shortcut icon" href="{{ "/icons/favicon.ico" | relURL }}" type="image/x-icon">
+	<link rel="icon" href="{{ "/icons/favicon.ico" | relURL }}" type="image/x-icon">
+	<meta name="msapplication-TileColor" content="#0d2538">
+	<meta name="theme-color" content="#ffffff">
 	{{- with .OutputFormats.Get "rss" }}
 	{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 	{{- end }}

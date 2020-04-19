@@ -6,6 +6,7 @@ const BASE_CACHE_FILES = [
     'https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.0/lazysizes.min.js',
     '/manifest.json',
     '/img/avatar.png',
+    '/img/placeholder.svg'
 ];
 
 const OFFLINE_CACHE_FILES = [

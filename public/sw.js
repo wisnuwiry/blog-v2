@@ -2,25 +2,24 @@ const CACHE_VERSION = 1;
 
 const BASE_CACHE_FILES = [
     '/css/bundle.css',
-    '/js/menu.js',
-    '/search.json',
+    '/js/bundle.js',
+    'https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.0/lazysizes.min.js',
     '/manifest.json',
-    '/img/favicon.png',
+    '/img/avatar.png',
+    '/img/placeholder.svg'
 ];
 
 const OFFLINE_CACHE_FILES = [
-    '/style.css',
-    '/script.js',
+    '/css/bundle.css',
+    '/js/bundle.js',
     '/offline/index.html',
 ];
 
 const NOT_FOUND_CACHE_FILES = [
-    '/style.css',
-    '/script.js',
     '/404.html',
 ];
 
-const OFFLINE_PAGE = '/offline/index.html';
+const OFFLINE_PAGE = '/index.html';
 const NOT_FOUND_PAGE = '/404.html';
 
 const CACHE_VERSIONS = {

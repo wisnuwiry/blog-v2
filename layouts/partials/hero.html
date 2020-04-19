@@ -1,6 +1,6 @@
 <div class="hero">
 	{{- partial "entry/featured.html" (dict "page" . "IsSingle" true) }}
-	<header class="hero__content">
+	<header class="hero__content" {{ if .IsHome }} style="bottom: 10%" {{end}}>
 	<div class="wrapper">
 		<h1>
 	{{ if .IsHome }}
@@ -11,6 +11,10 @@
 		</h1>
 	{{ if .IsHome }}
 		<p>{{ .Site.Params.Hero.desc }}</p>
+		<div class="post__meta post__meta--author">
+			<img class="post__author-thumb lazyload" data-src="{{ .Site.Author.avatar | absURL}}" alt="James Brown" src="/img/placeholder.svg"> 
+			<a href="/about" class="feed__author invert">{{ .Site.Author.name}}</a>
+		</div>
 	{{ end }}
 		</div>
 	</header>

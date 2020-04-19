@@ -1,6 +1,5 @@
 ---
 title: About
-description: Hugo, the world’s fastest framework for building websites
 menu: main
 toc: false
 authorBox: false
@@ -12,7 +11,7 @@ page: true
 
 Halo, perkenalkan nama saya Wisnu.
 
-Saya saat ini sebagai Software Engineer at KodingWorks dan juga sebagai siswa SMK di salah satu SMK di Kudus. 
+Saya saat ini sebagai Software Engineer at KodingWorks dan juga sebagai mahasiswa di salah satu Universitas di Semarang. 
 
 Saya sangat suka belajar dengan teknologi terbaru, terutama pada teknologi Mobile Development dan Web Technology.
 

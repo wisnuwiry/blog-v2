@@ -1,0 +1,16 @@
+{{ define "main" }}
+	<div class="feed">
+		{{- if .Content }}
+		<div class="page block">
+			{{ with .Content }}<div class="page__content{{ if not $.Title }} page__content--notitle{{ end }}">{{ . }}</div>{{ end }}
+		</div>
+		{{- end }}
+		<article class="feed__item">
+			{{ $paginator := .Paginate (where .Data.Pages "Type" "project") 3}}
+			{{ range $paginator.Pages }}
+				{{ .Render "summary" }}
+			{{ end }}
+		</article>
+	</div>
+	{{ partial "pagination.html" . }}
+{{ end }}
