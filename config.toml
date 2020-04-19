@@ -9,6 +9,7 @@ title                         = "Wisnuwiry"
 
 [Params]
   description                 = "Sebuah catatan dan blog pribadi saya. Saya juga akan membagi tentang pengalaman saya dan teknologi-teknolgi yang saya gunakan/pelajari atau yang sedang populer." # Site Description. Used in meta description
+  images                      = ["img/avatar.png"]
   copyright                   = "Wisnuwiry" # Copyright holder, otherwise will use .Site.Title
   opengraph                   = true # Enable OpenGraph if true
   twitter_cards               = true # Enable Twitter Cards if true
@@ -96,7 +97,24 @@ googleAnalytics               = "UA-147337173-1"
 
 # Code
 [markup]
-  defaultMarkdownHandler      = "blackfriday"
+  # defaultMarkdownHandler    = "blackfriday"
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList          = true
+      footnote                = true
+      linkify                 = true
+      strikethrough           = true
+      table                   = true
+      taskList                = true
+      typographer             = true
+    [markup.goldmark.parser]
+      attribute               = true
+      autoHeadingID           = true
+      autoHeadingIDType       = "github"
+    [markup.goldmark.renderer]
+      hardWraps               = false
+      unsafe                  = true
+      xhtml                   = false
   [markup.blackFriday]
     angledQuotes              = false
     footnoteAnchorPrefix      = ""
@@ -122,3 +140,7 @@ googleAnalytics               = "UA-147337173-1"
     noClasses                 = false
     style                     = "dracula"
     tabWidth                  = 4
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2

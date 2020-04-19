@@ -2,22 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blog on Wisnuwiry</title>
-    <link>http://localhost:1313/tags/blog/</link>
+    <link>https://www.wisnuwiry.my.id/tags/blog/</link>
     <description>Recent content in blog on Wisnuwiry</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language>
     <lastBuildDate>Sat, 21 Mar 2020 17:33:17 +0700</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.wisnuwiry.my.id/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Personal Site Blog &amp; Portofolio</title>
-      <link>http://localhost:1313/project/personal-site-portofolio/</link>
+      <title>Personal Site Blog dan Portofolio</title>
+      <link>https://www.wisnuwiry.my.id/project/personal-site-portofolio/</link>
       <pubDate>Sat, 21 Mar 2020 17:33:17 +0700</pubDate>
       
-      <guid>http://localhost:1313/project/personal-site-portofolio/</guid>
+      <guid>https://www.wisnuwiry.my.id/project/personal-site-portofolio/</guid>
       <description>Overview Pada project saya kali ini dibuat dengan Hugo (Static site generator).
+
 Feature:  Fast Loading Available PWA Full Responsive Lazy load image  Detail or Download Anda bisa melihat hasil project saya dan jika ingin kontribusi, ataupun ingin membuat web seperti saya ini bisa check di github saya:
 Show Detail</description>
     </item>

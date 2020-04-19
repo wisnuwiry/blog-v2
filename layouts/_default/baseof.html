@@ -7,13 +7,24 @@
 	<meta name="theme-color" content="{{ .Site.Params.Manifest.themeColor | default "#1b1b1b" }}">
 	<title>{{ block "title" . }}{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
-	<meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}">
+	<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
 	{{- if .Site.Params.opengraph }}
 		{{ template "_internal/opengraph.html" . }}
 	{{- end }}
 	{{- if .Site.Params.twitter_cards }}
 		{{ template "_internal/twitter_cards.html" . }}
 	{{- end }}
+
+	{{ with .Site.Params.GoogleAnalytics }}
+	<script>
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', '{{ . }}', 'auto');
+	ga('send', 'pageview');
+	</script>
+	<script async src='//www.google-analytics.com/analytics.js'></script>
+	{{ end }}
+	
+	{{ template "_internal/schema.html" .}}
 	{{- $cssMain := resources.Get "css/main.css" }}
 	{{- $cssCode := resources.Get "css/code.css" }}
 	{{- $style := slice $cssMain $cssCode | resources.Concat "css/bundle.css" }}
@@ -33,13 +44,9 @@
 	{{- with ((.Site.GetPage "home").OutputFormats.Get "manifest") }}
 	<link rel="manifest" href="{{ "manifest.json" | relURL }}">
 	{{- end }}
-	{{- if not .Site.IsServer }}
-		{{ template "_internal/google_analytics_async.html" . }}
-	{{- end }}
 	{{ if .Site.Params.googleSearchConsole }}
 	<meta name="google-site-verification" content="{{ .Site.Params.googleSearchConsole }}">
 	{{ end }}
-	
 	{{ partial "json_ld.html" . }}
 </head>
 <body>
