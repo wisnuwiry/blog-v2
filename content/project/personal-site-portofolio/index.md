@@ -15,6 +15,7 @@ image: /project/personal-site-portofolio/featured.png
 Pada project saya kali ini dibuat dengan Hugo (Static site generator).
 
 ![Personal site Wisnuwiry](featured.png)
+![Hasil Analisi My Site Wisnuwiry](analisis_web_wisnuwiry.png)
 
 ### Feature:
 

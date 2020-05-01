@@ -48,6 +48,8 @@
 	<meta name="google-site-verification" content="{{ .Site.Params.googleSearchConsole }}">
 	{{ end }}
 	{{ partial "json_ld.html" . }}
+	<meta content="{{ .Site.Params.fb_admins }}" property="fb:admins">
+	<meta content="{{ .Site.Params.fb_app_id }}" property="fb:app_id">
 </head>
 <body>
 	<div class="site-container">

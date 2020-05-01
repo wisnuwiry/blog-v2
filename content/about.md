@@ -1,5 +1,5 @@
 ---
-title: About
+title: About 😃
 menu: main
 toc: false
 authorBox: false

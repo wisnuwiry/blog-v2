@@ -1,6 +1,5 @@
 ---
-title: Contact
-description: Hugo, the world’s fastest framework for building websites
+title: Contact 📨️
 menu: main
 toc: false
 authorBox: false

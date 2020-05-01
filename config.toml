@@ -29,10 +29,13 @@ title                         = "Wisnuwiry"
   largestFontSize             = 2.5
   smallestFontSize            = 1
   googleSearchConsole         = "EHmgFXPbIXwG8bY6XRaQ4I7-YRcAFjoSc3NODdEm3_A"
+  GoogleAnalytics             = "UA-147337173-1"
+  fb_admins                   = 100023577212451
+  fb_app_id                   = 192065405413624
 
 
 [Params.Hero]
-  title                       = "Personal Blog By WisnuWiry"
+  title                       = "A Personal Blog By WisnuWiry"
   desc                        = "Welcome to my Blog :)"
 
 [Params.Entry]
@@ -91,9 +94,7 @@ enableRobotsTXT               = true
 
 # Pagination
 Paginate                      = 3
-
-# Google Analityc
-googleAnalytics               = "UA-147337173-1" 
+ 
 
 # Code
 [markup]

@@ -2,21 +2,22 @@
 <section class="post__comments">
 	<!-- {{ template "_internal/disqus.html" . }} -->
 	<div class="wrapper">
-		<h5>Comment:</h5>
-		<div id="commento"></div>
+		<h5>💬 Comment:</h5>
+		<div id="fb-root"></div>
+		<div class="fb-comments" data-href="{{ .Permalink }}" data-numposts="10" data-width="100%"></div>
 		<script>
 		    var disqus_loaded = false;
 
 		    function publiiLoadDisqus() {
 
-		        var top = document.getElementById('commento').offsetTop;
+		        var top = document.getElementById('fb-root').offsetTop;
 
 		        if (!disqus_loaded && (window.scrollY || window.pageYOffset) + window.innerHeight > top) {
 		            disqus_loaded = true;
 
 		            (function () {
 		                var d = document, s = d.createElement('script');
-		                s.src = 'https://cdn.commento.io/js/commento.js';
+		                s.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=192065405413624&autoLogAppEvents=1';
 		                (d.head || d.body).appendChild(s);
 		            })();
 		        }
@@ -28,6 +29,5 @@
 		        publiiLoadDisqus();
 		    };
 		</script>
-	</div>
 </section>
 {{ end }}

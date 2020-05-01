@@ -91,7 +91,7 @@ html {
     position: fixed; }
 
 body {
-  background: #FFFFFF;
+  background: #f3f8fb;
   color: #17181e;
   font-weight: normal;
   line-height: 1.7;
@@ -287,7 +287,9 @@ pre {
   padding: 1.7rem;
   border-radius: 0.5rem;
   white-space: pre-wrap;
-  word-wrap: break-word; }
+  word-wrap: break-word;
+  overflow: auto;
+  white-space: pre; }
   pre > code[class*=language-] {
     color: white;
     display: inline-block; }
@@ -1119,7 +1121,6 @@ textarea {
       pointer-events: none; }
 
 .site-container {
-  background: #FFFFFF;
   max-width: 100%;
   overflow: hidden; }
 
@@ -1207,9 +1208,14 @@ textarea {
       right: 6vw;
       z-index: 3; }
 
+.feed {
+    padding: 0 4%;}
+
 .feed__item {
-  margin-top: calc(2.55rem + 1.5vw);
-  padding-bottom: calc(0.56667rem + 1vw); }
+  background: white;
+  border-radius: 5px;
+  margin-top: calc(1.55rem + 1.5vw);
+  padding: calc(0.56667rem + 1vw); }
 
 .feed__image {
   -webkit-box-sizing: content-box;
@@ -1834,4 +1840,8 @@ textarea {
 }
 #TableOfContents ul, #TableOfContents li{
   margin-top: 0px;
+}
+
+.single {
+  padding-bottom: 1.2em;
 }
