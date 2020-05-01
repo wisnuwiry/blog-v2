@@ -17,6 +17,8 @@ Pada project saya kali ini dibuat dengan Hugo (Static site generator).
 ![Personal site Wisnuwiry](featured.png)
 ![Hasil Analisi My Site Wisnuwiry](analisis_web_wisnuwiry.png)
 
+Untuk costumize pada file `config.toml` disitu bisa custom sesuka hati kalian.
+
 ### Feature:
 
 - Fast Loading
