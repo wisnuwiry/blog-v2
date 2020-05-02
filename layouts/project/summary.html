@@ -12,11 +12,7 @@
 	</div>
 	<div class="wrapper">
 		{{ partial "entry/tags.html" . }}
-		{{ if gt (len .Summary) 200 }}
-			<p>{{slicestr .Summary 0 200}}</p>
-		{{ else }}
-			<p>{{ .Summary }}</p>
-		{{ end }}
+		<p>{{ .Summary }}</p>
 		<a class="btn" href="{{ .RelPermalink }}">Show Detail</a>
 	</div>
 </article>
