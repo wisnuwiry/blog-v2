@@ -1,5 +1,5 @@
 ---
-title: "Alasan Kenapa Pakai Flutter"
+title: "Alasan-alasan Kenapa Harus Pakai Flutter"
 date: 2020-05-02T21:58:10+07:00
 draft: false
 tags:
@@ -7,7 +7,7 @@ tags:
  - dart
 ---
 
-Mungkin kita sering mendengar kata **Flutter** tapi kita belum tahu **apa sih itu Flutter?** Mungkin juga banyak orang yang sudah tahu tentang teknologi Flutter ini, tapi tidak sedikit juga orang yang masih belum tahu tentang teknologi ini. Baik kali ini Saya akan memperkenalkan dengan teman-teman apa itu Flutter? sebelum lanjut ke alasan-alasan saya pakai Flutter.
+Mungkin kita sering mendengar kata-kata **Flutter** tapi kita belum tahu **apa sih itu Flutter?** mungkin juga banyak orang yang sudah tahu tentang teknologi Flutter ini, tapi tidak sedikit juga orang yang masih belum tahu tentang teknologi ini. Baik kali ini Saya akan memperkenalkan dengan teman-teman apa itu Flutter? sebelum kita lanjut ke alasan-alasan mengapa saya pakai Flutter.
 
 ![Why Flutter](./featured.png)
 

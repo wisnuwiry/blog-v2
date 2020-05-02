@@ -9,7 +9,7 @@ tags:
 ---
 
 ### Apa itu pemrogaaman?
-
+Mungkin kita sering mendenger istilah Pemrograman ataupun Koding dari berbagai sumber baik teman ataupun sosial media.
 Pemrograman atau biasa disebut dengan coding yaitu sebuah proses membuat sebuah software atau aplikasi yang bertujuan atau dengan harap software tersebut bisa berguna untuk semua orang, syukur-syukur bisa mendapatkan profit dari software tersebut. Dan biasanya seseorang yang melakukan pemrograman atau coding disebut Programmer, Developer, Coder, etc.
 
 ### Belajar pemrograman/coding wajib laptop atau komputer?
