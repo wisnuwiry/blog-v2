@@ -1,18 +1,15 @@
 <article class="feed__item">
-	<header class="wrapper">		
-		<div class="feed__meta">
-			{{- partial "entry/meta/date.html" . }}
-		</div>
+	<header class="feed__featured">
+		{{ partial "entry/featured_project.html" .}}		
+	</header>
+	<div>
 		<h2>
 			<a href="{{ .RelPermalink }}" class="invert">{{ .Title }}</a>
 		</h2>
-	</header>
-	<div class="wrapper">
-		{{ partial "entry/featured_project.html" .}}
-	</div>
-	<div class="wrapper">
-		{{ partial "entry/tags.html" . }}
 		<p>{{ .Summary }}</p>
-		<a class="btn" href="{{ .RelPermalink }}">Show Detail</a>
+		<div class="feed__meta">
+			{{- partial "entry/meta/date.html" . }}
+		</div>
+		{{ partial "entry/tags.html" . }}
 	</div>
 </article>

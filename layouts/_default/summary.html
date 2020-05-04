@@ -1,5 +1,5 @@
 <article class="feed__item">
-	<header class="wrapper">
+	<div>
 		<div class="feed__meta">
 			{{- if .Param "authorbox" }}
 				<img alt="{{ $.Site.Author.name }} avatar" data-src="{{ $.Site.Author.avatar | relURL }}" class="post__author-thumb lazyload" src="{{ "/img/placeholder.svg" | relURL }}">
@@ -10,8 +10,6 @@
 		<h2>
 			<a href="{{ .RelPermalink }}" class="invert">{{ .Title }}</a>
 		</h2>
-	</header>
-	<div class="wrapper">
 		{{- with .Summary }}
 		<p>{{ . }}</p>
 		{{- end }}

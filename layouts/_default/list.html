@@ -5,12 +5,10 @@
 			{{ with .Content }}<div class="page__content{{ if not $.Title }} page__content--notitle{{ end }}">{{ . }}</div>{{ end }}
 		</div>
 		{{- end }}
-		<article class="feed__item">
-			{{ $paginator := .Paginate (where .Data.Pages "Type" "post") .Site.Params.paginateLength}}
-			{{ range $paginator.Pages }}
-				{{ .Render "summary" }}
-			{{ end }}
-		</article>
+		{{ $paginator := .Paginate (where .Data.Pages "Type" "post") .Site.Params.paginateLength}}
+		{{ range $paginator.Pages }}
+			{{ .Render "summary" }}
+		{{ end }}
 	</div>
 	{{ partial "pagination.html" . }}
 {{ end }}
