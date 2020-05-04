@@ -7,7 +7,9 @@ tags:
  - dart
 ---
 
-Mungkin kita sering mendengar kata-kata **Flutter** tapi kita belum tahu **apa sih itu Flutter?** mungkin juga banyak orang yang sudah tahu tentang teknologi Flutter ini, tapi tidak sedikit juga orang yang masih belum tahu tentang teknologi ini. Baik kali ini Saya akan memperkenalkan dengan teman-teman apa itu Flutter? sebelum kita lanjut ke alasan-alasan mengapa saya pakai Flutter.
+Bila Anda seorang developer yang ingin mencoba belajar sesuatu teknologi yang baru, Anda tidak salah lagi bila ingin belajar Flutter, disini saya akan membahas **alasan-alasan kenapa harus pakai Flutter**.
+
+Mungkin kita sering mendengar kata-kata **Flutter** tapi kita belum tahu **apa sih itu Flutter?** mungkin juga banyak orang yang sudah tahu tentang teknologi Flutter ini, tapi tidak sedikit juga orang yang masih belum tahu tentang teknologi ini. Baik kali ini Saya akan memperkenalkan dengan teman-teman apa itu Flutter? sebelum kita lanjut ke **alasan-alasan mengapa saya pakai Flutter**.
 
 ![Why Flutter](./featured.png)
 

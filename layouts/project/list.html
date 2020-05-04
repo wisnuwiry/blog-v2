@@ -6,7 +6,7 @@
 		</div>
 		{{- end }}
 		<article class="feed__item">
-			{{ $paginator := .Paginate (where .Data.Pages "Type" "project") 3}}
+			{{ $paginator := .Paginate (where .Data.Pages "Type" "project") .Site.Params.paginateLength}}
 			{{ range $paginator.Pages }}
 				{{ .Render "summary" }}
 			{{ end }}

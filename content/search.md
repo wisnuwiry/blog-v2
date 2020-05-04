@@ -1,6 +1,6 @@
 ---
 title: Search 🔍
-description: Carilah sesuatu yang sesuai dengan keinginan Anda.
+description: Carilah dan tulis sesuatu kata kunci yang sesuai dengan keinginan Anda, dan carilah sampe ketemu!.
 toc: false
 authorBox: false
 breadcrumb: false

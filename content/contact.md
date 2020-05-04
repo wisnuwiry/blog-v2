@@ -10,5 +10,5 @@ contact: true
 page: true
 ---
 
-Hubungi saya dengan mengisi form dibawah ini:<br>
+Ingin menyampaikan aspirasi kepada saya, atau ingin menghubungi saya ataupun juga ingin berkenalan/ngobrol bisa saja dengan mengisi form dibawah ini:<br>
 

@@ -33,6 +33,7 @@ summaryLength                 = 5
   GoogleAnalytics             = "UA-147337173-1"
   fb_admins                   = 100023577212451
   fb_app_id                   = 192065405413624
+  paginateLength              = 5
 
 
 [Params.Hero]
@@ -143,6 +144,6 @@ Paginate                      = 3
     style                     = "dracula"
     tabWidth                  = 4
   [markup.tableOfContents]
-    endLevel = 3
-    ordered = false
-    startLevel = 2
+    endLevel                  = 6
+    ordered                   = false
+    startLevel                = 2

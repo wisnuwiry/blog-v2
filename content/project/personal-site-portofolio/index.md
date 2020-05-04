@@ -12,7 +12,7 @@ image: /project/personal-site-portofolio/featured.png
 
 ### Overview
 
-Pada project saya kali ini saya membuat sebuah platform website yang saya buat dengan Hugo (Static site generator).
+**Wisnuwiry site** ini adalah sebuah **open source blogging  dan porotoflio platform** yang dibuat dengan Hugo (Static site generator).
 
 ![Personal site Wisnuwiry](featured.png)
 

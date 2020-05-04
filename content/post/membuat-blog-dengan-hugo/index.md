@@ -7,8 +7,9 @@ tags:
   - "hugo"
 ---
 
-Sebelumnya apakah sudah tahu tentang Blog Personal / Web Portofolio?
+Jika teman-teman ingin membuat sebuah web pribadi ataupun portofolio disini akan dibahas **Bagaimana cara membuat sebuah web portofolio dengan Hugo**. 
 
+Sebelumnya apakah sudah tahu tentang Blog Personal / Web Portofolio?
 
 Jika belum mari kita bahas.  
 

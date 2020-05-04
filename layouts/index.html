@@ -5,7 +5,7 @@
 	</div>
 	{{- end }}
 	{{- $mainSections := .Site.Params.mainSections }}
-	{{- $paginator := .Paginate (where .Site.RegularPages "Type" "in" $mainSections) 3}}
+	{{- $paginator := .Paginate (where .Site.RegularPages "Type" "in" $mainSections) .Site.Params.paginateLength }}
 	{{- if gt $paginator.TotalNumberOfElements 0 }}
 		<div class="feed">
 			{{- range $paginator.Pages }}

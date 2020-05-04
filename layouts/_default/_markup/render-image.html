@@ -5,6 +5,6 @@
     src="/img/placeholder.svg"
     data-src='{{ .Destination | safeURL }}'
     alt='{{ .Text }}'
-    {{ with .Title}} title="{{ . }}"{{ end }}
+    {{ with .Text }} title="{{ . }}"{{ end }}
  	/>
 </figure>
