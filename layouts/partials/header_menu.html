@@ -1,22 +1,21 @@
 {{- if .Site.Menus.main }}
-
 	<nav class="navbar js-navbar">
-		<button class="navbar__toggle js-toggle" aria-label="Menu" aria-haspopup="true" aria-expanded="false"><span class="navbar__toggle-box"><span class="navbar__toggle-inner">Menu</span></span>
-		</button>
 		<ul class="navbar__menu">
 			{{- $currentNode := . }}
 			{{- range .Site.Menus.main }}
 				{{- $current := (or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .)) }}
 				{{- if .Name }}
-				<li style="color: white">
-					{{ if not $current }}<a href="{{ .URL }}">{{ end }}
+				<li {{ if $current }} class="active" {{ end }}>
+					<a href="{{ .URL }}" target="_self">
 						{{ .Pre }}
 						{{ .Name }}
 						{{ .Post }}
-					{{ if not $current }}</a>{{ end }}
+					</a>
 				</li>
 				{{- end }}
 			{{- end }}
 		</ul>
+		<button class="navbar__toggle js-toggle" aria-label="Menu" aria-haspopup="true" aria-expanded="false"><span class="navbar__toggle-box"><span class="navbar__toggle-inner">Menu</span></span>
+		</button>
 	</nav>
 {{- end }}
