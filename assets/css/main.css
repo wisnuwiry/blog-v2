@@ -568,7 +568,7 @@ iframe{
     -o-transition: background .5s ease;
     transition: background .5s ease;
     width: 100%;
-    z-index: 2; }
+    z-index: 4; }
   @media all and (min-width: 56.25em) {
     .top {
       -webkit-box-pack: justify;
@@ -1643,7 +1643,8 @@ iframe{
     .pagination {
       margin-top: calc(2.1rem + 1vw); } }
   .pagination__item {
-    margin-left: 1.13333rem;}
+    margin-left: 1.13333rem;
+    list-style: none;}
     .pagination__item a{
       padding: 20px !important;
       font-size: 1rem !important;

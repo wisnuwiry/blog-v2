@@ -3,21 +3,27 @@
 	<!-- {{ template "_internal/disqus.html" . }} -->
 	<div class="wrapper">
 		<h5>💬 Comment:</h5>
-		<div id="fb-root"></div>
-		<div class="fb-comments" data-href="{{ .Permalink }}" data-numposts="10" data-width="100%"></div>
+		<div id="hyvor-talk-view"></div>
+		<script type="text/javascript">
+		    var HYVOR_TALK_WEBSITE = 715; // DO NOT CHANGE THIS
+		    var HYVOR_TALK_CONFIG = {
+		        url: false,
+		        id: false
+		    };
+		</script>
 		<script>
 		    var disqus_loaded = false;
 
 		    function publiiLoadDisqus() {
 
-		        var top = document.getElementById('fb-root').offsetTop;
+		        var top = document.getElementById('hyvor-talk-view').offsetTop;
 
 		        if (!disqus_loaded && (window.scrollY || window.pageYOffset) + window.innerHeight > top) {
 		            disqus_loaded = true;
 
 		            (function () {
 		                var d = document, s = d.createElement('script');
-		                s.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=192065405413624&autoLogAppEvents=1';
+		                s.src = '//talk.hyvor.com/web-api/embed';
 		                (d.head || d.body).appendChild(s);
 		            })();
 		        }
