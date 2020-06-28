@@ -1,8 +1,8 @@
 const CACHE_VERSION = 1;
 
 const BASE_CACHE_FILES = [
-    '/css/bundle.css',
-    '/js/bundle.js',
+    '/css/bundle.min.css',
+    '/js/bundle.min.js',
     'https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.0/lazysizes.min.js',
     '/manifest.json',
     '/img/avatar.png',
@@ -10,8 +10,8 @@ const BASE_CACHE_FILES = [
 ];
 
 const OFFLINE_CACHE_FILES = [
-    '/css/bundle.css',
-    '/js/bundle.js',
+    '/css/bundle.min.css',
+    '/js/bundle.min.js',
     '/offline/index.html',
 ];
 

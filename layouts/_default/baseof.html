@@ -16,7 +16,7 @@
 	{{ template "_internal/schema.html" .}}
 	{{- $cssMain := resources.Get "css/main.css" }}
 	{{- $cssCode := resources.Get "css/code.css" }}
-	{{- $style := slice $cssMain $cssCode | resources.Concat "css/bundle.css" }}
+	{{- $style := slice $cssMain $cssCode | resources.Concat "css/bundle.css" | resources.Minify}}
 	<link rel="stylesheet" href="{{ $style.RelPermalink }}">
 	{{- range .Site.Params.customCSS }}
 	<link rel="stylesheet" href="{{ . | relURL }}">
