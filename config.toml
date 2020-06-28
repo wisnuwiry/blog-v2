@@ -5,7 +5,7 @@ summaryLength                 = 5
 
 [Author] # Used in authorbox
   name                        = "Wisnu G. Saputra"
-  bio                         = "Flutter | Mobile Tech Entuthiast. Seorang pelajar/mahasiswa yang suka dengan teknolgi IT. Saya juga suka blogging dan mempelajari hal teknologi baru."
+  bio                         = "Flutter | Mobile Tech Enthusiast | Software Engineer at KodingWorks. Saya juga suka blogging dan mempelajari hal teknologi baru."
   avatar                      = "img/avatar.png"
 
 [Params]
