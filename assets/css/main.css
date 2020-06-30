@@ -1403,3 +1403,13 @@ textarea {
     transition: top 0.3s ease 0s;
     width: 100%;
 }
+.post__tag.pagination {
+    display: flex;
+    justify-content: center;
+}
+.pagination__item {
+    list-style: none;
+}
+.pagination__item > a{
+    padding: 1.3em;
+}
