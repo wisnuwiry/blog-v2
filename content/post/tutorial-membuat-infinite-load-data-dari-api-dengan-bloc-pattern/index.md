@@ -1,13 +1,15 @@
 ---
-title: "Tutorial Membuat Inifinite Load Data Dari Api Dengan Bloc Pattern"
+title: "Tutorial Membuat Infinite Load Data Dari Api Dengan Bloc Pattern"
 date: 2020-06-29T21:29:51+07:00
 draft: false
 tags: 
  - "flutter"
  - "bloc"
+aliases:
+ - /post/tutorial-membuat-inifinite-load-data-dari-api-dengan-bloc-pattern/
 ---
 
-Halo apa kabar semua? kali ini Aku akan membahas tentang **Tutorial Membuat Inifinite List Load Data dari API menggunakan Bloc Pattern**, jangan berlama-lama lagi ayo kita mulai sebuah experiments.
+Halo apa kabar semua? kali ini Aku akan membahas tentang **Tutorial Membuat Infinite List Load Data dari API menggunakan Bloc Pattern**, jangan berlama-lama lagi ayo kita mulai sebuah experiments.
 
 Untuk memulai experiment kali ini teman-teman harus mempunyai beberapa requirement yang harus dipenuhi yaitu:
 
