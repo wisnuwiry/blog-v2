@@ -284,4 +284,7 @@ Untuk mentrigger sebuah event cubit kita perlu menggunakan keyword tersebut.
 
 Teman-teman masih bingung dengan penjelasan saya? Bila masih bingung bisa [contact saya](/contact), atau bisa lihat hasil experiment kali ini di Github:
 
-<a href="https://github.com/felangel/cubit" class="btn">Source Code</a>
+<center><a href="https://github.com/wisnuwiry/flutter-bottom-nav-cubit" class="btn">Source Code</a></center>
+
+Reference:
+	- https://github.com/felangel/cubit
