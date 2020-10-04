@@ -1400,3 +1400,7 @@ textarea {
     padding: 1.3em;
     background: var(--card-color);
 }
+.turbolinks-progress-bar {
+    height: 5px;
+    background-color: green;
+  }
