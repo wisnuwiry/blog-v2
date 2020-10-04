@@ -23,7 +23,8 @@
 
 		            (function () {
 		                var d = document, s = d.createElement('script');
-		                s.src = '//talk.hyvor.com/web-api/embed';
+						s.src = '//talk.hyvor.com/web-api/embed';
+						s.defer = true;
 		                (d.head || d.body).appendChild(s);
 		            })();
 		        }

@@ -1,7 +1,3 @@
-// Turbolink
-document.addEventListener("turbolinks:load", function () {
-})
-
 // Dyanamic theme
 var btn = document.getElementById('toggle-theme');
 var currentTheme = localStorage.getItem("w-theme");
