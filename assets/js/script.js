@@ -1,7 +1,26 @@
+// Hyfor Talk
+var HYVOR_TALK_CONFIG = {
+    palette: {
+        accent: getComputedStyle(document.documentElement)
+        .getPropertyValue('--primary-color'),
+        accentText: getComputedStyle(document.documentElement)
+        .getPropertyValue('--primary-color'),
+        footerHeader: getComputedStyle(document.documentElement)
+        .getPropertyValue('--card-color'),
+        footerHeaderText: getComputedStyle(document.documentElement)
+        .getPropertyValue('--text-color'),
+        box: getComputedStyle(document.documentElement)
+        .getPropertyValue('--card-color'),
+        boxText: getComputedStyle(document.documentElement)
+        .getPropertyValue('--disabled-text-color'),
+        boxLightText: getComputedStyle(document.documentElement)
+        .getPropertyValue('--text-color'),
+        backgroundText: "#111111"
+    }
+} 
+
 // Turbolink
 document.addEventListener("turbolinks:load", function () {
-    // ...
-    console.log('askjdkf');
 })
 
 // Dyanamic theme
