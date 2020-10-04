@@ -3,7 +3,6 @@
 {{ $js := slice $script  | resources.Concat "js/bundle.js" | resources.Minify}}
 
 <script type="text/javascript" src="{{$js.RelPermalink}}"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.2.0/turbolinks.js"></script>
 {{- partial "mathjax.html" . -}}
 {{- range .Site.Params.customJS }}
 <script src="{{ . | relURL }}"></script>
