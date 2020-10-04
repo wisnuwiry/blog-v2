@@ -2,9 +2,8 @@ var palleteComment = {
     accent: getComputedStyle(document.documentElement)
     .getPropertyValue('--primary-color'),
     accentText: getComputedStyle(document.documentElement)
-    .getPropertyValue('--primary-color'),
-    footerHeader: getComputedStyle(document.documentElement)
-    .getPropertyValue('--card-color'),
+    .getPropertyValue('--text-color'),
+    footerHeader: "#00000000",
     footerHeaderText: getComputedStyle(document.documentElement)
     .getPropertyValue('--text-color'),
     box: getComputedStyle(document.documentElement)
@@ -13,7 +12,8 @@ var palleteComment = {
     .getPropertyValue('--disabled-text-color'),
     boxLightText: getComputedStyle(document.documentElement)
     .getPropertyValue('--text-color'),
-    backgroundText: "#111111"
+    backgroundText: getComputedStyle(document.documentElement)
+    .getPropertyValue('--text-color')
 }
 
 // Hyfor Talk
