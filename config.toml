@@ -1,7 +1,7 @@
 baseURL                       = "https://www.wisnuwiry.my.id/"
 languageCode                  = "id"
 title                         = "Wisnuwiry"
-summaryLength                 = 5
+summaryLength                 = 10
 
 [Author] # Used in authorbox
   name                        = "Wisnu G. Saputra"

@@ -1,9 +1,54 @@
+// Turbolink
+document.addEventListener("turbolinks:load", function () {
+    // ...
+    console.log('askjdkf');
+})
+
+// Dyanamic theme
+var btn = document.getElementById('toggle-theme');
+var currentTheme = localStorage.getItem("w-theme");
+
+if (currentTheme == "dark") {
+    document.body.classList.add("dark-theme");
+}
+
+changeIconTheme(currentTheme);
+
+btn.addEventListener("click", function () {
+    document.body.classList.toggle("dark-theme");
+
+    let theme = "light";
+    if (document.body.classList.contains("dark-theme")) {
+        theme = "dark";
+        document.body.className = "";
+        document.body.classList.add("dark-theme");
+    } else {
+        theme = "light";
+        document.body.className = "";
+        document.body.classList.add("light-theme");
+    }
+    changeIconTheme(theme);
+    localStorage.setItem("w-theme", theme);
+});
+
+function changeIconTheme(theme) {
+    var icon = document.getElementById('icon-theme');
+
+    if (theme == "light") {
+        icon.removeAttribute("d");
+        icon.setAttribute("d", "M12.34,2.02C6.59,1.82,2,6.42,2,12c0,5.52,4.48,10,10,10c3.71,0,6.93-2.02,8.66-5.02C13.15,16.73,8.57,8.55,12.34,2.02z");
+    } else {
+        icon.removeAttribute("d");
+        icon.setAttribute("d", "M6.76 4.84l-1.8-1.79-1.41 1.41 1.79 1.79 1.42-1.41zM4 10.5H1v2h3v-2zm9-9.95h-2V3.5h2V.55zm7.45 3.91l-1.41-1.41-1.79 1.79 1.41 1.41 1.79-1.79zm-3.21 13.7l1.79 1.8 1.41-1.41-1.8-1.79-1.4 1.4zM20 10.5v2h3v-2h-3zm-8-5c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm-1 16.95h2V19.5h-2v2.95zm-7.45-3.91l1.41 1.41 1.79-1.8-1.41-1.41-1.79 1.8z");
+    }
+}
+
 // Sticky menu
 var new_scroll_position = 0;
 var last_scroll_position;
 var header = document.getElementById("js-header");
 var stickyMenu = document.getElementById("js-navbar-menu");
-window.addEventListener('scroll', function(e) {
+window.addEventListener('scroll', function (e) {
     last_scroll_position = window.scrollY;
     if (new_scroll_position < last_scroll_position && last_scroll_position > 40) {
         header.classList.remove("is-visible");
@@ -23,7 +68,7 @@ window.addEventListener('scroll', function(e) {
     }
     new_scroll_position = last_scroll_position;
 });
-(function(menuConfig) {
+(function (menuConfig) {
     var defaultConfig = {
         mobileMenuMode: 'overlay',
         animationSpeed: 300,
@@ -50,11 +95,11 @@ window.addEventListener('scroll', function(e) {
         relatedContainerForOverlayMenuClass: 'is-visible'
     };
     var config = {};
-    Object.keys(defaultConfig).forEach(function(key) {
+    Object.keys(defaultConfig).forEach(function (key) {
         config[key] = defaultConfig[key];
     });
     if (typeof menuConfig === 'object') {
-        Object.keys(menuConfig).forEach(function(key) {
+        Object.keys(menuConfig).forEach(function (key) {
             config[key] = menuConfig[key];
         });
     }
@@ -74,7 +119,7 @@ window.addEventListener('scroll', function(e) {
     function initSubmenuPositions() {
         var submenuParents = document.querySelectorAll(config.wrapperSelector + ' .' + config.parentItemClass);
         for (var i = 0; i < submenuParents.length; i++) {
-            submenuParents[i].addEventListener('mouseenter', function() {
+            submenuParents[i].addEventListener('mouseenter', function () {
                 var submenu = this.querySelector(config.submenuSelector);
                 var itemPosition = this.getBoundingClientRect().left;
                 var widthMultiplier = 2;
@@ -115,7 +160,7 @@ window.addEventListener('scroll', function(e) {
                 }
                 submenu.setAttribute('aria-hidden', false);
             });
-            submenuParents[i].addEventListener('mouseleave', function() {
+            submenuParents[i].addEventListener('mouseleave', function () {
                 var submenu = this.querySelector(config.submenuSelector);
                 submenu.removeAttribute('style');
                 submenu.setAttribute('aria-hidden', true);
@@ -135,7 +180,7 @@ window.addEventListener('scroll', function(e) {
             initToggleSubmenu(menuWrapper);
         }
         var button = document.querySelector(config.buttonSelector);
-        button.addEventListener('click', function() {
+        button.addEventListener('click', function () {
             var relatedContainer = document.querySelector(config.relatedContainerForOverlayMenuSelector);
             menuWrapper.classList.toggle(config.hiddenElementClass);
             button.classList.toggle(config.openedMenuClass);
@@ -173,10 +218,10 @@ window.addEventListener('scroll', function(e) {
             wrapSubmenusIntoContainer(menuWrapper);
             initToggleSubmenu(menuWrapper);
         }
-        menuWrapper.addEventListener('click', function(e) {
+        menuWrapper.addEventListener('click', function (e) {
             e.stopPropagation();
         });
-        menuOverlay.addEventListener('click', function() {
+        menuOverlay.addEventListener('click', function () {
             menuWrapper.classList.add(config.hiddenElementClass);
             menuOverlay.classList.add(config.hiddenElementClass);
             button.classList.remove(config.openedMenuClass);
@@ -184,7 +229,7 @@ window.addEventListener('scroll', function(e) {
             document.documentElement.classList.remove(config.noScrollClass);
         });
         var button = document.querySelector(config.buttonSelector);
-        button.addEventListener('click', function() {
+        button.addEventListener('click', function () {
             menuWrapper.classList.toggle(config.hiddenElementClass);
             menuOverlay.classList.toggle(config.hiddenElementClass);
             button.classList.toggle(config.openedMenuClass);
@@ -206,17 +251,17 @@ window.addEventListener('scroll', function(e) {
     function initToggleSubmenu(menuWrapper) {
         var parents = menuWrapper.querySelectorAll('.' + config.parentItemClass);
         for (var i = 0; i < parents.length; i++) {
-            parents[i].addEventListener('click', function(e) {
+            parents[i].addEventListener('click', function (e) {
                 e.stopPropagation();
                 var submenu = this.querySelector('.' + config.mobileMenuSubmenuWrapperClass);
                 var content = submenu.firstElementChild;
                 if (submenu.classList.contains(config.openedMenuClass)) {
                     var height = content.clientHeight;
                     submenu.style.height = height + 'px';
-                    setTimeout(function() {
+                    setTimeout(function () {
                         submenu.style.height = '0px';
                     }, 0);
-                    setTimeout(function() {
+                    setTimeout(function () {
                         submenu.removeAttribute('style');
                         submenu.classList.remove(config.openedMenuClass);
                     }, config.animationSpeed);
@@ -224,10 +269,10 @@ window.addEventListener('scroll', function(e) {
                     var height = content.clientHeight;
                     submenu.classList.add(config.openedMenuClass);
                     submenu.style.height = '0px';
-                    setTimeout(function() {
+                    setTimeout(function () {
                         submenu.style.height = height + 'px';
                     }, 0);
-                    setTimeout(function() {
+                    setTimeout(function () {
                         submenu.removeAttribute('style');
                     }, config.animationSpeed);
                 }
@@ -235,7 +280,7 @@ window.addEventListener('scroll', function(e) {
             var childNodes = parents[i].children;
             for (var j = 0; j < childNodes.length; j++) {
                 if (childNodes[j].tagName === 'A') {
-                    childNodes[j].addEventListener('click', function(e) {
+                    childNodes[j].addEventListener('click', function (e) {
                         var lastClick = parseInt(this.getAttribute('data-last-click'), 10);
                         var currentTime = +new Date();
                         if (isNaN(lastClick)) {
@@ -258,18 +303,18 @@ window.addEventListener('scroll', function(e) {
 
 // Load search input area
 var searchButton = document.querySelector(".js-search-btn");
-    searchOverlay = document.querySelector(".js-search-overlay");
-    searchClose = document.querySelector(".js-search-close");
-    searchInput = document.querySelector(".js-search-input");
+searchOverlay = document.querySelector(".js-search-overlay");
+searchClose = document.querySelector(".js-search-close");
+searchInput = document.querySelector(".js-search-input");
 
 if (searchButton) {
-    searchButton.addEventListener("click", function () {        
+    searchButton.addEventListener("click", function () {
         searchOverlay.classList.add("expanded");
-        setTimeout(function() { 
-            searchInput.focus(); 
-        }, 60);        
+        setTimeout(function () {
+            searchInput.focus();
+        }, 60);
     });
-    
+
     searchClose.addEventListener("click", function () {
         searchOverlay.classList.remove('expanded');
     });

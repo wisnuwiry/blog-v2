@@ -54,7 +54,20 @@ Pada extensions ini kita bisa menginstall berbagai dependency dart tanpa harus k
 Extensions ini saya sangat suka sekali, dan sangat berguna sekali dalam menulis suatu code. Kita bisa memberi komentar dengan ragam variasi. Bisa TODO, Alert, Highlights, Queries. Dengan warna comment yang sesuai. Jadi dalam penulisan kode kita bisa terstruktur, mana yang harus dikerjakan terlebih dahulu, dan mana yang dikerjakan belakangan. 
 
 <a class="btn" href="https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments">Show Detail</a>
-#### 6. Image Preview
+
+#### 6. TODO Tree
+
+![Extensions Todo Tree in VS Code](./todo_tree.png)
+
+Extensions ini sangat berguna sekali, jika teman-teman coding dengan banyak sekali file/ project yang besar, Extensions ini itu bisa membantu kita untuk mengorganizer apa saja yang harus kita lakukan, di dalam file tersebut, dan extensions ini itu bisa mendeteksi semua file yang ada comment `TODO` di dalam workspace folder. Untuk penggunaan buat comment code, terus diawali dengan TODO, terus pesan apa yang anda isi. Contoh:
+
+```dart
+// TODO: Kerjakan ini setelah semua selesai
+```
+
+Perlu diperhatikan format comment tidak semua sama, format tergantung pada bahasa pemrograman yang teman-teman gunakan.
+
+#### 7. Image Preview
 
 ![VS Code Image Preview Extensions](./image_preview.png)
 
@@ -62,18 +75,19 @@ Extensions ini bisa membantu kita melihat preview gambar url atau path. DI exten
 
 <a class="btn" href="https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview">Show Detail</a>
 
-#### 7. Material Icon Theme 
+#### 8. Material Icon Theme 
 
 ![VS Code Material Icon Theme](material_icon.png)
 
 Material Icon Theme ini suatu extension yang cukup menarik, kita bisa melihat suatu folder, dan file dengan warna dan icon yang beragam yang sangat menarik. Dan juga kita bisa custom sendiri nama folder dan file yang akan dicustom iconnya.
 
 <a class="btn" href="https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme">Show Detail</a>
-#### 8. YAML
+
+#### 9. YAML
 
 Extensions YAML ini saya gunakan untuk meminimalisir kasalahan penulisan Kode dalam file YAML, karena di Flutter semua setting, seperti dependency, project name, ect. 
 
-#### 9. Bracket Pair Colorizer 2
+#### 10. Bracket Pair Colorizer 2
 
 ![VS Code Bracket Pari Colorizer 2](https://github.com/CoenraadS/BracketPair/raw/master/images/example.png)
 
@@ -81,7 +95,7 @@ Extensions ini bisa membuat kita lebih, teliti dalam penulisan kode, dengan pemi
 
 <a class="btn" href="https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2">Show Detail</a>
 
-#### 10. Markdown All in One
+#### 11. Markdown All in One
 
 Extensions ini berguna bila kita menulis sebuah text di dalam file markdown. Sangat berguna sekali jika teman-teman masih pemula menggunakan markdown, extensions ini sangat bagus, dan juga kita bisa membuat dan langsung melihat preview yang telah kita buat.
 

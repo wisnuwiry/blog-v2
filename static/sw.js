@@ -4,6 +4,7 @@ const BASE_CACHE_FILES = [
     '/css/bundle.min.css',
     '/js/bundle.min.js',
     'https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.0/lazysizes.min.js',
+    'https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.2.0/turbolinks.js',
     '/manifest.json',
     '/img/avatar.png',
     '/img/placeholder.svg'
