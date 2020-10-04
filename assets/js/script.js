@@ -4,7 +4,6 @@ var currentTheme = localStorage.getItem("w-theme");
 
 if (currentTheme == "dark") {
     document.body.classList.add("dark-theme");
-    hyvor_talk.setPalette(palleteComment);
 }
 
 changeIconTheme(currentTheme);
