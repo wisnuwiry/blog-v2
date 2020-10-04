@@ -1,22 +1,24 @@
+var palleteComment = {
+    accent: getComputedStyle(document.documentElement)
+    .getPropertyValue('--primary-color'),
+    accentText: getComputedStyle(document.documentElement)
+    .getPropertyValue('--primary-color'),
+    footerHeader: getComputedStyle(document.documentElement)
+    .getPropertyValue('--card-color'),
+    footerHeaderText: getComputedStyle(document.documentElement)
+    .getPropertyValue('--text-color'),
+    box: getComputedStyle(document.documentElement)
+    .getPropertyValue('--card-color'),
+    boxText: getComputedStyle(document.documentElement)
+    .getPropertyValue('--disabled-text-color'),
+    boxLightText: getComputedStyle(document.documentElement)
+    .getPropertyValue('--text-color'),
+    backgroundText: "#111111"
+}
+
 // Hyfor Talk
 var HYVOR_TALK_CONFIG = {
-    palette: {
-        accent: getComputedStyle(document.documentElement)
-        .getPropertyValue('--primary-color'),
-        accentText: getComputedStyle(document.documentElement)
-        .getPropertyValue('--primary-color'),
-        footerHeader: getComputedStyle(document.documentElement)
-        .getPropertyValue('--card-color'),
-        footerHeaderText: getComputedStyle(document.documentElement)
-        .getPropertyValue('--text-color'),
-        box: getComputedStyle(document.documentElement)
-        .getPropertyValue('--card-color'),
-        boxText: getComputedStyle(document.documentElement)
-        .getPropertyValue('--disabled-text-color'),
-        boxLightText: getComputedStyle(document.documentElement)
-        .getPropertyValue('--text-color'),
-        backgroundText: "#111111"
-    }
+    palette: palleteComment,
 } 
 
 // Turbolink
@@ -29,6 +31,7 @@ var currentTheme = localStorage.getItem("w-theme");
 
 if (currentTheme == "dark") {
     document.body.classList.add("dark-theme");
+    hyvor_talk.setPalette(palleteComment);
 }
 
 changeIconTheme(currentTheme);
@@ -48,6 +51,7 @@ btn.addEventListener("click", function () {
     }
     changeIconTheme(theme);
     localStorage.setItem("w-theme", theme);
+    hyvor_talk.setPalette(palleteComment);
 });
 
 function changeIconTheme(theme) {
