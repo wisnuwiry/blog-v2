@@ -23,7 +23,7 @@ btn.addEventListener("click", function () {
     }
     changeIconTheme(theme);
     localStorage.setItem("w-theme", theme);
-    hyvor_talk.setPalette(palleteComment);
+    // hyvor_talk.setPalette(palleteComment);
 });
 
 function changeIconTheme(theme) {
@@ -36,27 +36,29 @@ function changeIconTheme(theme) {
         icon.removeAttribute("d");
         icon.setAttribute("d", "M6.76 4.84l-1.8-1.79-1.41 1.41 1.79 1.79 1.42-1.41zM4 10.5H1v2h3v-2zm9-9.95h-2V3.5h2V.55zm7.45 3.91l-1.41-1.41-1.79 1.79 1.41 1.41 1.79-1.79zm-3.21 13.7l1.79 1.8 1.41-1.41-1.8-1.79-1.4 1.4zM20 10.5v2h3v-2h-3zm-8-5c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm-1 16.95h2V19.5h-2v2.95zm-7.45-3.91l1.41 1.41 1.79-1.8-1.41-1.41-1.79 1.8z");
     }
-    document.querySelector('meta[name="theme-color"]').setAttribute("content", getComputedStyle(document.documentElement)
-    .getPropertyValue('--primary-color'),);
-
+    var color = getComputedStyle(document.body).getPropertyValue('--primary-color');
+    document.querySelector('meta[name="theme-color"]').setAttribute("content", "");
+    document.querySelector('meta[name="msapplication-TileColor"]').setAttribute("content", "");
+    document.querySelector('meta[name="theme-color"]').setAttribute("content", color);
+    document.querySelector('meta[name="msapplication-TileColor"]').setAttribute("content", color);
 }
 
 var palleteComment = {
-    accent: getComputedStyle(document.documentElement)
+    accent: getComputedStyle(document.body)
     .getPropertyValue('--primary-color'),
-    accentText: getComputedStyle(document.documentElement)
+    accentText: getComputedStyle(document.body)
     .getPropertyValue('--text-color'),
-    footerHeader: getComputedStyle(document.documentElement)
+    footerHeader: getComputedStyle(document.body)
     .getPropertyValue('--card-color'),
-    footerHeaderText: getComputedStyle(document.documentElement)
+    footerHeaderText: getComputedStyle(document.body)
     .getPropertyValue('--text-color'),
-    box: getComputedStyle(document.documentElement)
+    box: getComputedStyle(document.body)
     .getPropertyValue('--card-color'),
-    boxText: getComputedStyle(document.documentElement)
+    boxText: getComputedStyle(document.body)
     .getPropertyValue('--disabled-text-color'),
-    boxLightText: getComputedStyle(document.documentElement)
+    boxLightText: getComputedStyle(document.body)
     .getPropertyValue('--text-color'),
-    backgroundText: getComputedStyle(document.documentElement)
+    backgroundText: getComputedStyle(document.body)
     .getPropertyValue('--text-color'),
 }
 
