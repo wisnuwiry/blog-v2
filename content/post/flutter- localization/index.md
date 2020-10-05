@@ -1,5 +1,5 @@
 ---
-title: "Tutorial Localization & Translation di Flutter"
+title: "Tutorial Localization dan Translation di Flutter"
 date: 2020-10-03T12:51:04+07:00
 draft: false
 tags: 

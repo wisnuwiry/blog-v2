@@ -43,29 +43,29 @@ function changeIconTheme(theme) {
     document.querySelector('meta[name="msapplication-TileColor"]').setAttribute("content", color);
 }
 
-var palleteComment = {
-    accent: getComputedStyle(document.body)
-    .getPropertyValue('--primary-color'),
-    accentText: getComputedStyle(document.body)
-    .getPropertyValue('--text-color'),
-    footerHeader: getComputedStyle(document.body)
-    .getPropertyValue('--card-color'),
-    footerHeaderText: getComputedStyle(document.body)
-    .getPropertyValue('--text-color'),
-    box: getComputedStyle(document.body)
-    .getPropertyValue('--card-color'),
-    boxText: getComputedStyle(document.body)
-    .getPropertyValue('--disabled-text-color'),
-    boxLightText: getComputedStyle(document.body)
-    .getPropertyValue('--text-color'),
-    backgroundText: getComputedStyle(document.body)
-    .getPropertyValue('--text-color'),
-}
+// var palleteComment = {
+//     accent: getComputedStyle(document.body)
+//     .getPropertyValue('--primary-color'),
+//     accentText: getComputedStyle(document.body)
+//     .getPropertyValue('--text-color'),
+//     footerHeader: getComputedStyle(document.body)
+//     .getPropertyValue('--card-color'),
+//     footerHeaderText: getComputedStyle(document.body)
+//     .getPropertyValue('--text-color'),
+//     box: getComputedStyle(document.body)
+//     .getPropertyValue('--card-color'),
+//     boxText: getComputedStyle(document.body)
+//     .getPropertyValue('--disabled-text-color'),
+//     boxLightText: getComputedStyle(document.body)
+//     .getPropertyValue('--text-color'),
+//     backgroundText: getComputedStyle(document.body)
+//     .getPropertyValue('--text-color'),
+// }
 
-// Hyfor Talk
-var HYVOR_TALK_CONFIG = {
-    palette: palleteComment,
-} 
+// // Hyfor Talk
+// var HYVOR_TALK_CONFIG = {
+//     palette: palleteComment,
+// } 
 
 // Sticky menu
 var new_scroll_position = 0;
