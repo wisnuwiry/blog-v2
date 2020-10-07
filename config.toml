@@ -55,9 +55,10 @@ summaryLength                 = 10
 [Params.Social]
   twitter                     = "wisnuwiry"
   telegram                    = "wisnuwiry"
-  instagram                   = "wisnuwiry"
+# instagram                   = "wisnuwiry"
   linkedin                    = "wisnu-saputra"
   github                      = "wisnuwiry"
+  gitlab                      = "wisnuwiry"
   medium                      = "wisnuwiry"
 
 [Params.Share] # Entry Share block
