@@ -1,18 +1,15 @@
 {{- if .Site.Menus.main }}
 	<nav class="navbar js-navbar">
 		<ul class="navbar__menu">
-			{{- $currentNode := . }}
-			{{- range .Site.Menus.main }}
-				{{- $current := (or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .)) }}
-				{{- if .Name }}
-				<li {{ if $current }} class="active" {{ end }}>
+			{{ $currentPage := . }}
+			{{ range .Site.Menus.main }}
+				{{ if .Identifier }}
+				<li>
 					<a href="{{ .URL }}" target="_self">
-						{{ .Pre }}
-						{{ .Name }}
-						{{ .Post }}
+						{{ .Pre }} {{ .Identifier }}
 					</a>
 				</li>
-				{{- end }}
+				{{ end }}
 			{{- end }}
 		</ul>
 		<button class="navbar__toggle js-toggle" aria-label="Menu" aria-haspopup="true" aria-expanded="false"><span class="navbar__toggle-box"><span class="navbar__toggle-inner">Menu</span></span>

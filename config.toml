@@ -37,7 +37,7 @@ summaryLength                 = 10
 
 
 [Params.Hero]
-  title                       = "A Personal Blog By WisnuWiry"
+  title                       = "A Personal Site By WisnuWiry"
   desc                        = "Welcome to my Blog :)"
 
 [Params.Entry]
@@ -47,6 +47,33 @@ summaryLength                 = 10
 
 [Params.Featured]
   previewOnly                 = false # Show only preview featured image
+
+# Navigation bar
+[menu]
+
+[[menu.main]]
+identifier = "Tutorial"
+pre = "📝"
+url = "/post" 
+weight = 1 
+
+[[menu.main]]
+identifier = "Snippet"
+pre = "⚒️"
+url = "/snippet" 
+weight = 2 
+
+[[menu.main]]
+identifier = "About"
+pre = "😃"
+url = "/about" 
+weight = 3
+
+[[menu.main]]
+identifier = "Contact"
+pre = "🤙"
+url = "/contact" 
+weight = 4
 
 [Params.Breadcrumb]
   enable                      = true # Enable breadcrumb block globally
