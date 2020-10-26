@@ -2,8 +2,8 @@
 var btn = document.getElementById('toggle-theme');
 var currentTheme = localStorage.getItem("w-theme");
 
-if (currentTheme == "dark") {
-    document.body.classList.add("dark-theme");
+if (currentTheme == "light") {
+    document.body.classList.add("light-theme");
 }
 
 changeIconTheme(currentTheme);
@@ -23,16 +23,30 @@ btn.addEventListener("click", function () {
     }
     changeIconTheme(theme);
     localStorage.setItem("w-theme", theme);
-    // hyvor_talk.setPalette(palleteComment);
 });
 
 function changeIconTheme(theme) {
     var icon = document.getElementById('icon-theme');
+    const utterances = document.querySelector('.utterances-frame');
 
     if (theme == "light") {
+        const message = {
+            type: 'set-theme',
+            theme: 'github-light'
+        };
+        if(utterances != null){
+            utterances.contentWindow.postMessage(message, 'https://utteranc.es');
+        }
         icon.removeAttribute("d");
         icon.setAttribute("d", "M12.34,2.02C6.59,1.82,2,6.42,2,12c0,5.52,4.48,10,10,10c3.71,0,6.93-2.02,8.66-5.02C13.15,16.73,8.57,8.55,12.34,2.02z");
     } else {
+        const message = {
+            type: 'set-theme',
+            theme: 'photon-dark'
+        };
+        if(utterances != null){
+            utterances.contentWindow.postMessage(message, 'https://utteranc.es');
+        }
         icon.removeAttribute("d");
         icon.setAttribute("d", "M6.76 4.84l-1.8-1.79-1.41 1.41 1.79 1.79 1.42-1.41zM4 10.5H1v2h3v-2zm9-9.95h-2V3.5h2V.55zm7.45 3.91l-1.41-1.41-1.79 1.79 1.41 1.41 1.79-1.79zm-3.21 13.7l1.79 1.8 1.41-1.41-1.8-1.79-1.4 1.4zM20 10.5v2h3v-2h-3zm-8-5c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm-1 16.95h2V19.5h-2v2.95zm-7.45-3.91l1.41 1.41 1.79-1.8-1.41-1.41-1.79 1.8z");
     }
@@ -43,29 +57,6 @@ function changeIconTheme(theme) {
     document.querySelector('meta[name="msapplication-TileColor"]').setAttribute("content", color);
 }
 
-// var palleteComment = {
-//     accent: getComputedStyle(document.body)
-//     .getPropertyValue('--primary-color'),
-//     accentText: getComputedStyle(document.body)
-//     .getPropertyValue('--text-color'),
-//     footerHeader: getComputedStyle(document.body)
-//     .getPropertyValue('--card-color'),
-//     footerHeaderText: getComputedStyle(document.body)
-//     .getPropertyValue('--text-color'),
-//     box: getComputedStyle(document.body)
-//     .getPropertyValue('--card-color'),
-//     boxText: getComputedStyle(document.body)
-//     .getPropertyValue('--disabled-text-color'),
-//     boxLightText: getComputedStyle(document.body)
-//     .getPropertyValue('--text-color'),
-//     backgroundText: getComputedStyle(document.body)
-//     .getPropertyValue('--text-color'),
-// }
-
-// // Hyfor Talk
-// var HYVOR_TALK_CONFIG = {
-//     palette: palleteComment,
-// } 
 
 // Sticky menu
 var new_scroll_position = 0;
