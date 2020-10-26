@@ -98,7 +98,7 @@ summaryLength                 = 5
 
 
 [Params.Hero]
-  title                       = "A Personal Blog By WisnuWiry"
+  title                       = "A Personal Site By WisnuWiry"
   desc                        = "Welcome to my Blog :)"
 
 [Params.Entry]

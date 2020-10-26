@@ -5,8 +5,7 @@
 			{{ with .Content }}<div class="page__content{{ if not $.Title }} page__content--notitle{{ end }}">{{ . }}</div>{{ end }}
 		</div>
 		{{- end }}
-		{{ $paginator := .Paginate (where .Data.Pages "Type" "post") .Site.Params.paginateLength}}
-		{{ range $paginator.Pages }}
+		{{ range .Pages }}
 			{{ .Render "summary" }}
 		{{ end }}
 	</div>

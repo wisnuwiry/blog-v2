@@ -1,5 +1,5 @@
 ---
-title: "Membuat Personal Blog/Portofolio dengan Hugo"
+title: "Membuat Personal Site/Portofolio dengan Hugo"
 date: 2020-03-21T17:33:17+07:00
 draft: false
 tags:

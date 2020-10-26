@@ -3,15 +3,16 @@
 	<!-- {{ template "_internal/disqus.html" . }} -->
 	<div class="wrapper">
 		<h5>💬 Comment:</h5>
-		<div id="hyvor-talk-view"></div>
-		<script type="text/javascript">
-		    var HYVOR_TALK_WEBSITE = 715; // DO NOT CHANGE THIS
-		    var HYVOR_TALK_CONFIG = {
-		        url: false,
-		        id: false
-		    };
+		<!-- <div id="hyvor-talk-view"></div> -->
+		<script src="https://utteranc.es/client.js"
+			repo="wisnuwiry/blog-v2"
+			issue-term="title"
+			label="comment"
+			theme="photon-dark"
+			crossorigin="anonymous"
+        async>
 		</script>
-		<script>
+		<!-- <script>
 		    var disqus_loaded = false;
 
 		    function publiiLoadDisqus() {
@@ -23,8 +24,12 @@
 
 		            (function () {
 		                var d = document, s = d.createElement('script');
-						s.src = '//talk.hyvor.com/web-api/embed';
-						s.defer = true;
+						s.src = '//utteranc.es/client.js';
+						s.repo = 'wisnuwiry/blog-v2';
+						s.issueTerm = 'title';
+						s.theme = 'photon-dark';
+						s.crossOrigin = 'anonymous';
+						s.async = true;
 		                (d.head || d.body).appendChild(s);
 		            })();
 		        }
@@ -35,6 +40,6 @@
 		    window.onscroll = function() {
 		        publiiLoadDisqus();
 		    };
-		</script>
+		</script> -->
 </section>
 {{ end }}
