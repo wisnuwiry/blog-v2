@@ -52,7 +52,7 @@ summaryLength                 = 10
 [menu]
 
 [[menu.main]]
-identifier = "Tutorial"
+identifier = "Post"
 pre = "📝"
 url = "/post" 
 weight = 1 
