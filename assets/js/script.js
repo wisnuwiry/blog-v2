@@ -4,6 +4,8 @@ var currentTheme = localStorage.getItem("w-theme");
 
 if (currentTheme == "light") {
     document.body.classList.add("light-theme");
+}else{
+    document.body.classList.add("dark-theme");
 }
 
 changeIconTheme(currentTheme);
@@ -12,7 +14,7 @@ btn.addEventListener("click", function () {
     document.body.classList.toggle("dark-theme");
 
     let theme = "dark";
-    if (document.body.classList.contains("dark-theme")) {
+    if (document.body.classList.contains("light-theme")) {
         theme = "dark";
         document.body.className = "";
         document.body.classList.add("dark-theme");
