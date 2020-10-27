@@ -16,7 +16,7 @@ This is web made by Hugo static site generator:
 
 ## Setup
 1. Clone this repo
-1. cd <<folder repo>>
+1. `cd blog-v2`
 1. `hugo server`
 
 ## Test Result:
