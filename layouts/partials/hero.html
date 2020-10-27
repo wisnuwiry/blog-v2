@@ -6,7 +6,7 @@
 	{{ if .IsHome }}
 		{{ .Site.Params.Hero.title }}
 	{{ else }}
-		{{ .Params.title }}
+		{{ .Params.title | default "Oops, Error 404 Not Found 🚫" }}
 	{{ end }}
 		</h1>
 	{{ if .IsHome }}

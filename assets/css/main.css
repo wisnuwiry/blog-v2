@@ -1346,7 +1346,7 @@ textarea {
     opacity: 1;
 }
 .footer__copyright {
-    color: var(--disabled-text-color);
+    color: white;
     font-size: 0.67893rem;
     letter-spacing: 1px;
     text-transform: uppercase;

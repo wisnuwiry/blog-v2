@@ -11,7 +11,7 @@ changeIconTheme(currentTheme);
 btn.addEventListener("click", function () {
     document.body.classList.toggle("dark-theme");
 
-    let theme = "light";
+    let theme = "dark";
     if (document.body.classList.contains("dark-theme")) {
         theme = "dark";
         document.body.className = "";

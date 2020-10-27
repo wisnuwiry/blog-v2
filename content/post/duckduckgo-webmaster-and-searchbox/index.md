@@ -39,7 +39,7 @@ Tanpa berlama-lama lagi ayo langsung ke langkah-langkahnya.
 
 6. Isi `Bing command` dengan simple command untuk search misal: `ehe`, Rekomendasi tidak carakter saja.
 
-7. Isi `Bang URL` dengan url search pada website teman-teman pada contoh ini saya menggunkan URL ini: `https://www.wisnuwiry.my.id/search.html?q={{{s}}}` dan `{{{s}}}` kode ini sebagai parameter keyword pada pencarian.
+7. Isi `Bang URL` dengan url search pada website teman-teman pada contoh ini saya menggunkan URL ini: `https://www.wisnuwiry.space/search.html?q={{{s}}}` dan `{{{s}}}` kode ini sebagai parameter keyword pada pencarian.
 
 8. Pilih kategory website kamu dan comment terserah teman-teman saja.
 
@@ -70,6 +70,6 @@ Isi semua form tersebut sesuai dengan kebutuhan saja. Saran saya isikan site sea
 
 Berikut hasilnya kita experiment tadi:
 
-<iframe data-src="https://duckduckgo.com/search.html?site=wisnuwiry.my.id&prefill=Search DuckDuckGo" class="lazyload" style="overflow:hidden;margin:0;padding:0;width:408px;height:40px;" frameborder="0"></iframe>
+<iframe data-src="https://duckduckgo.com/search.html?site=wisnuwiry.space&prefill=Search DuckDuckGo" class="lazyload" style="overflow:hidden;margin:0;padding:0;width:408px;height:40px;" frameborder="0"></iframe>
 
 Selamat mencoba, Salam Hello World

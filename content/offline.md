@@ -10,3 +10,6 @@ type: offline
 ---
 
 Sepertinya Anda sedang Offline, cobalah beberapa saat lagi ketika sudah mempunyai koneksi internet.
+
+<br>
+<center><a class="btn" href="/">Back Home</a></center>
