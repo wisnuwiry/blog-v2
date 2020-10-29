@@ -9,12 +9,6 @@ const BASE_CACHE_FILES = [
     '/img/placeholder.svg'
 ];
 
-const OFFLINE_CACHE_FILES = [
-    '/css/bundle.min.css',
-    '/js/bundle.min.js',
-    '/offline/index.html',
-];
-
 const NOT_FOUND_CACHE_FILES = [
     '/404/index.html',
 ];
@@ -39,9 +33,9 @@ const MAX_TTL = {
 };
 
 const CACHE_BLACKLIST = [
-    //(str) => {
-    //    return !str.startsWith('http://localhost') && !str.startsWith('https://gohugohq.com');
-    //},
+    (str) => {
+       return !str.startsWith('http://localhost') && !str.startsWith('https://wisnuwiry.space');
+    },
 ];
 
 const SUPPORTED_METHODS = [
