@@ -10,11 +10,11 @@ const BASE_CACHE_FILES = [
 ];
 
 const NOT_FOUND_CACHE_FILES = [
-    '/404/index.html',
+    '/404',
 ];
 
 const OFFLINE_PAGE = '/index.html';
-const NOT_FOUND_PAGE = '/404.html';
+const NOT_FOUND_PAGE = '/404';
 
 const CACHE_VERSIONS = {
     assets: 'assets-v' + CACHE_VERSION,
