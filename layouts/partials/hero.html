@@ -1,5 +1,6 @@
 <div class="hero">
 	{{- partial "entry/featured.html" (dict "page" . "IsSingle" true) }}
+	{{- partial "entry/featured_network.html" . }}
 	<header class="hero__content" {{ if .IsHome }} style="bottom: 10%" {{end}}>
 	<div class="wrapper">
 		<h1>
