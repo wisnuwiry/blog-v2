@@ -97,12 +97,6 @@ function installServiceWorker() {
                         return cache.addAll(BASE_CACHE_FILES);
                     }
                 ),
-            caches.open(CACHE_VERSIONS.offline)
-                .then(
-                    (cache) => {
-                        return cache.addAll(OFFLINE_CACHE_FILES);
-                    }
-                ),
             caches.open(CACHE_VERSIONS.notFound)
                 .then(
                     (cache) => {
