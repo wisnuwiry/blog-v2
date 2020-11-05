@@ -1,6 +1,0 @@
-User-agent: *
-Sitemap: https://www.wisnuwiry.space/sitemap.xml
-Disallow: /404/
-Disallow: /offline/
-Noindex: /404/
-Noindex: /offline/
