@@ -1,0 +1,37 @@
+---
+label: Blog Post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
+- name: series
+  type: tag_list
+  default: []
+  label: series
+- name: images
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Images
+pages:
+- content/post/cara-buat-bloc-state-management-mudah-dengan-extensions.md
+- content/post/flutter-firebase-login-with-email.md
+- content/post/flutter-firebase-login-with-google.md
+- content/post/flutter-firebase-setup-firebase-crashlytics.md
+- content/post/flutter-firebase-setup-firebase-performance.md
+- content/post/flutter-menampilkan-package-name-dan-build-version.md
+- content/post/flutter-setup-firebase.md
+- content/post/flutter-state-management-dengan-rivedpod.md
+- content/post/membuat-localization-flutter-dengan-extensions-flutter_intl.md
+- content/post/membuat-logging-observer-pada-flutter-di-state-management-bloc.md
+- content/post/pengenalan-kelebihan-dan-kekurangan-firebase.md

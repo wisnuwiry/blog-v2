@@ -1,0 +1,25 @@
+---
+label: Pages
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: boolean
+  name: toc
+  label: toc
+- type: boolean
+  name: authorBox
+  label: authorBox
+- type: boolean
+  name: breadcrumb
+  label: breadcrumb
+- type: boolean
+  name: comments
+  label: comments
+- type: boolean
+  name: share
+  label: share
+- type: boolean
+  name: page
+  label: page

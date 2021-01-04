@@ -1,0 +1,22 @@
+---
+label: Snippet
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
+- name: series
+  type: tag_list
+  default: []
+  label: series
+pages:
+- content/snippet/cara-build-apk-dan-appbundle-release-di-flutter.md
+- content/snippet/cara-mudah-menghilangkan-banner-debug-di-flutter.md
+- content/snippet/membuat-launch-url-ke-native-app-pada-flutter-menggunakan-url_launcher.md
