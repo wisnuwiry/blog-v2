@@ -1,11 +1,14 @@
 ---
-date: 2021-01-04T17:00:00Z
-images: ["https://i.ibb.co/Km6h5Ym/Flutter-Package-Info-Poster-Blog.png"]
+date: 2021-01-04T17:00:00+00:00
+images:
+- https://i.ibb.co/Km6h5Ym/Flutter-Package-Info-Poster-Blog.png
 series: []
-tags: ["library", "flutter"]
-title: "Flutter Menampilkan Package Name dan Build Version"
----
+tags:
+- library
+- flutter
+title: Flutter Menampilkan Package Name dan Build Version
 
+---
 Ketika membuat sebuah aplikasi Flutter kadang perlu juga kita mengetahui informasi dari native platform misal untuk mengetahui beberapa informasi tentang versi build sekarang dan package name.
 
 Misal jika Anda ingin implementasi cek versi terbaru aplikasi Anda yang digunakan oleh user, sudah pasti Anda perlu cek terlebih dahulu versi aplikasi yang digunakan user sekarang itu berapa, dan aplikasi terbaru itu berapa.
