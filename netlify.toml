@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "cd themes/personal-site && git checkout master && git pull && cd ../../ && hugo --gc --minify"
+command = "cd themes && git clone https://github.com/wisnuwiry/personal-site.git && cd ../ && hugo --gc --minify"
 
 [context.production.environment]
 HUGO_VERSION = "0.79.0"
