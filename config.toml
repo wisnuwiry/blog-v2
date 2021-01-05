@@ -150,7 +150,7 @@ enableRobotsTXT               = true
 Paginate                      = 5
  
 [sitemap]
-  changefreq = "monthly"
+  changefreq = "daily"
   filename = "sitemap.xml"
   priority = 0.5
 
