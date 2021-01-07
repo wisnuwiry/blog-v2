@@ -23,6 +23,9 @@ fields:
     min: 
     max: 
   label: Images
+- name: featured
+  type: boolean
+  label: Featured
 pages:
 - content/post/cara-buat-bloc-state-management-mudah-dengan-extensions.md
 - content/post/flutter-firebase-login-with-email.md
