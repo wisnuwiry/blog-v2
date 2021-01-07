@@ -1,5 +1,6 @@
 +++
 date = 2020-12-22T04:00:00Z
+featured = true
 images = ["https://i.ibb.co/r4dGQC6/flutter-setup-firebase-banner.webp"]
 series = ["Flutter Firebase Tutorial"]
 tags = ["firebase", "flutter"]
