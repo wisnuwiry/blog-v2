@@ -151,8 +151,10 @@ Paginate                      = 5
  
 [sitemap]
   changefreq = "daily"
+  changeFreqPage = "monthly"
   filename = "sitemap.xml"
-  priority = 0.5
+  priority = 1
+  priorityPage = 0.5
 
 # Code
 [markup]
