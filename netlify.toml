@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "rm -rf themes && git clone https://github.com/wisnuwiry/personal-site.git themes/personal-site && cd ../ && hugo --gc --minify"
+command = "rm -rf themes && git clone https://github.com/wisnuwiry/personal-site.git themes/personal-site && hugo --gc --minify"
 
 [context.production.environment]
 HUGO_VERSION = "0.80.0"
