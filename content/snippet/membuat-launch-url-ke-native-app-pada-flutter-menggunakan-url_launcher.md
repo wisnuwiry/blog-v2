@@ -87,7 +87,7 @@ RaisedButton(
 //...
 
 void _launchWhatsapp(String phone, String message){
- final url = 'https://wa.me/$phone?text=${Uri.parse(message)';
+ final url = 'https://wa.me/$phone?text=${Uri.parse(message)}';
  if (await canLaunch(url)) {
     await launch(url);
   } else {
