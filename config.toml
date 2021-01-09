@@ -156,6 +156,19 @@ Paginate                      = 5
   priority = 1
   priorityPage = 0.5
 
+[related]
+    threshold = 0 
+    includeNewer = true
+    toLower = false
+
+    [[related.indices]]
+        name = "categories"
+        weight = 100
+
+    [[related.indices]]
+        name = "date"
+        weight = 10
+
 # Code
 [markup]
   # defaultMarkdownHandler    = "blackfriday"
