@@ -1,5 +1,6 @@
 +++
 date = 2020-12-13T17:00:00Z
+featured = false
 images = ["https://i.ibb.co/4P8Rx6r/pengenalan-firebase.webp"]
 series = ["Flutter Firebase Tutorial"]
 tags = ["flutter", " firebase"]
@@ -52,9 +53,9 @@ Apapun teknologi yang dibuat oleh Manusia tidak mungkin luput dari sebuah kekura
 
 Karena kita tidak mempunyai platform tersebut(firebase), jadi kita tidak bisa leluasa mengubah platform tersebut. Karena jika kita memakai platform tersebut kita wajib patuh terhadap segala aturan yang dibuat oleh **Firebase**.
 
-### 2. Membebani Frond End
+### 2. Membebani Front End
 
-Karena firebase ini adalah tech ServerSide maka mau nggak mau semua bentuk logic yang kita butuhkan berada pada **Frond End**, misal: Android, IOS, Web. Jadi ini bisa memberatkan para developer yang belum terlalu paham tentang logic logic pada back end.
+Karena firebase ini adalah tech ServerSide maka mau nggak mau semua bentuk logic yang kita butuhkan berada pada **Front End**, misal: Android, IOS, Web. Jadi ini bisa memberatkan para developer yang belum terlalu paham tentang logic logic pada back end.
 
 ### 3. Kita tidak tahu yang terjadi pada data kita
 
