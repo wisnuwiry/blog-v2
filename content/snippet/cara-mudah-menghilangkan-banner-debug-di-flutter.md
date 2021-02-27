@@ -1,5 +1,6 @@
 +++
 date = 2020-11-07T17:00:00Z
+series = []
 tags = ["flutter", "snippet", "tips"]
 title = "Cara Mudah Menghilangkan Banner Debug di Flutter"
 
@@ -8,7 +9,7 @@ Ketika kita membuat sebuah project **Flutter** secara default ketika di debuggin
 
 ![Flutter Debug Banner](https://i.ibb.co/Jd1ZSwr/debug-banner-flutter.png "Flutter Debug Banner")
 
-Untuk menghilangkan/menghapus banner debug tersebug cukup mudah sekali, dengan kasih param debugShowCheckedModeBanner: false pada Widget **MaterialApp**, berikut contoh lengkapnya:
+Untuk menghilangkan/menghapus banner debug tersebug cukup mudah sekali, dengan kasih param `debugShowCheckedModeBanner: false` pada Widget **MaterialApp**, berikut contoh lengkapnya:
 
 ```dart
 return MaterialApp(
