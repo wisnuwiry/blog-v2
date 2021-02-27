@@ -28,6 +28,7 @@ fields:
   label: Featured
 pages:
 - content/post/cara-buat-bloc-state-management-mudah-dengan-extensions.md
+- content/post/flutter-basic-images-and-icons.md
 - content/post/flutter-firebase-login-with-email.md
 - content/post/flutter-firebase-login-with-google.md
 - content/post/flutter-firebase-setup-firebase-crashlytics.md
