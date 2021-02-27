@@ -16,6 +16,10 @@ fields:
   type: tag_list
   default: []
   label: series
+- name: toc
+  type: boolean
+  label: toc
+  description: Enable or Disable Table Of Content
 pages:
 - content/snippet/cara-build-apk-dan-appbundle-release-di-flutter.md
 - content/snippet/cara-mudah-menghilangkan-banner-debug-di-flutter.md
