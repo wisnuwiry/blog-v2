@@ -3,7 +3,7 @@ date = 2020-11-07T17:00:00Z
 series = []
 tags = ["flutter", "snippet", "tips"]
 title = "Cara Mudah Menghilangkan Banner Debug di Flutter"
-toc = true
+toc = false
 
 +++
 Ketika kita membuat sebuah project **Flutter** secara default ketika di debugging/run akan menampilkan sebuah banner debug yang berada di samping atas seperti ini:
