@@ -36,4 +36,4 @@ FadeInImage(
  ),
 ```
 
-**More Info**: https://pub.dev/packages/cached_network_image "cached_network_image
+**More Info**: https://pub.dev/packages/cached_network_image
