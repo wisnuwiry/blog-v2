@@ -27,11 +27,11 @@ Tidak hanya itu saja kita bisa juga `CachedNetworkImage` ini ditaruh sebagai Pro
 
 ```dart {hl_lines=[0],linenostart=1}
 // Widget Image
-Image(image: CachedNetworkImageProvider('http://via.placeholder.com/350x150)),
+Image(image: CachedNetworkImageProvider('http://via.placeholder.com/350x150')),
 
 // Widget FadeInImage
 FadeInImage(
-   image: CachedNetworkImageProvider('http://via.placeholder.com/350x150),
+   image: CachedNetworkImageProvider('http://via.placeholder.com/350x150'),
    placeholder: AssetImage('path_your_file.png'),
  ),
 ```
