@@ -1,6 +1,5 @@
 +++
 date = 2021-04-05T00:00:00Z
-draft = true
 featured = false
 images = []
 series = []
