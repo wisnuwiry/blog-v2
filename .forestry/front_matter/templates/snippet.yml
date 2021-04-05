@@ -24,4 +24,5 @@ pages:
 - content/snippet/cara-build-apk-dan-appbundle-release-di-flutter.md
 - content/snippet/cara-mudah-menghilangkan-banner-debug-di-flutter.md
 - content/snippet/flutter-auto-collapse-expansiontile-after-choosing-an-item.md
+- content/snippet/flutter-caching-image-dengan-cachednetworkimage.md
 - content/snippet/membuat-launch-url-ke-native-app-pada-flutter-menggunakan-url_launcher.md
