@@ -5,11 +5,12 @@ images = []
 series = []
 tags = ["tips", " snippet"]
 title = "Flutter Auto Collapse ExpansionTile After Choosing an Item"
+toc = false
 
 +++
 Membuat beberapa `ExpansionTile` ketika di klik salah satu item maka item yang di klik tersebut akan melihat bagian detail, sebaliknya item yang lain maka akan menciut/menutup bagian detailnya.
 
-Di Flutter ketika Widget tersebut ada perubahan `Key` maka widget tersebut akan rebuild. Ini bisa kita manfaatkan seperti tujuan kita. 
+Di Flutter ketika Widget tersebut ada perubahan `Key` maka widget tersebut akan rebuild. Ini bisa kita manfaatkan seperti tujuan kita.
 
 Mari langsung ke studi kasus pada kodenya.
 
@@ -50,7 +51,7 @@ ListView.builder(
 ),
 ```
 
-`Key` yang ada di Widget `ListView.builder` berfungsi ketika ada perubahan item yang di klik sekarang maka akan rebuild widget. Dan untuk Key di `ExpansionTile` untuk menandakan unik itemnya tersebut. 
+`Key` yang ada di Widget `ListView.builder` berfungsi ketika ada perubahan item yang di klik sekarang maka akan rebuild widget. Dan untuk Key di `ExpansionTile` untuk menandakan unik itemnya tersebut.
 
 Dan untuk callback method `onExpansionChanged` berfungsi jika ada perubahan di Widget `ExpansionTile` akan melakukan fungis apa, dalam kasus ini saya menggunakannya untuk merubahan state selectedItem jadi yang di klik sekarang.
 
@@ -126,8 +127,4 @@ class _MyHomePageState extends State<MyHomePage> {
 
 **Demo:**
 
-{{< rawhtml >}}
-  <div style=”position:relative;padding-top:56.25%;”>
-<iframe src=’https://dartpad.dev/embed-inline.html?id=c7fda0c53a705fc48a1e44116c9ffbc1&null_safety=true' style=”position:absolute;top:0;left:0;width:100%;height:100%;”>.       </iframe>
-</div>
-{{< /rawhtml >}}
+{{< rawhtml >}} </br> <iframe src="https://dartpad.dev/embed-flutter.html?id=c7fda0c53a705fc48a1e44116c9ffbc1&null_safety=true&theme=dark" style="width:100%;height:500px; border: none;">      </iframe>{{< /rawhtml >}}
