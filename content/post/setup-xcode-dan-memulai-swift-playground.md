@@ -17,3 +17,5 @@ Jika Anda ingin memulai belajar membuat aplikasi IOS Anda perlu menggunakan IDE 
 ## Getting Started
 
 Sebelum kita memulai penginstalan Xcode perlu diperhatikan apa syarat yang perlu Anda penuhi(_requirement_) yang bisa Anda lihat di situs [apple developer](https://developer.apple.com/support/xcode/ "XCode Requirement"), pastikan syarat untuk install xcode terbaru terpenuhi, baru kita akan lanjut ke proses selanjutnya.
+
+![](https://i.ibb.co/vvqyQz9/Screen-Shot-2021-06-13-at-22-12-39.png)
