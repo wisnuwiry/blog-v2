@@ -1,8 +1,7 @@
 +++
-date = 2021-06-13T17:00:00Z
-draft = true
+date = 2021-06-13T16:00:00Z
 featured = false
-images = []
+images = ["https://i.ibb.co/R3QpW6S/ezgif-2-7c91b59b702c.webp"]
 series = []
 tags = ["swift", "xcode"]
 title = "Setup Xcode dan Memulai Swift Playground "
@@ -37,3 +36,35 @@ Setelah selesai proses penginstalan app Xcode. Anda perlu membuka aplikasi Xcode
 Jika Anda tidak menemukan dialog Welcome Screen seperti ini, Anda dapat juga membuat swift playground dengan klik menu `File` kemudian pilih menu `New` terus pilih `Playground`.
 
 ![](https://i.ibb.co/CJfQw9m/11-File-Menu.png)
+
+Kemudian setelah klik new Playground, akan muncul Pop Up lagi untuk template playground apa yang ingin Anda gunakan, misal pada kasus ini Saya menggunakan template blank saja pada platform Ios.
+
+![](https://i.ibb.co/NSkd7dh/12-Blank-Playground.png)
+
+Anda dapat menyimpan playground tersebut misal suatu saat Anda membutuhkan contoh kode yang pernah Anda buat sebelumnya di playground, Saya biasa menyimpan file playground di lokal(penyimpanan Mac).
+
+### Element di Xcode Playground
+
+Pada bagian ini sangat penting bagi pemula yang perlu Anda focus untuk mempelajarinya sekarang.
+
+![](https://i.ibb.co/ZVBRP0Z/better-image.png)
+
+1. **Kode Editor:** Dimana Anda dapat menuliskan kode-kode yang ingin Anda tuangkan.
+2. **Line Number**: Sebuah angka urutan dari sebuah baris-baris kode yang Anda tuliskan.
+
+   > Jika Anda tidak menemukan Line Number pada Xcode Anda, Anda dapat menyettingnya supaya muncul dengan klik menu `XCode >Preferences > Text Editing > Line Numbers` Kemudian enable pada checkbok `Line Numbers`
+3. **Status Bar**: Memberitahukan info apa saja yang terjadi pada playground. Jika status bar memberitahukan bahwa **Ready** berarti Xcode Playground tersebut dapat Anda jalankan/running.
+4. **Show/Hide Debug**: Menu yang dapat memunkinkan Anda memperlihatkan ataupun menyembunyikan console pada proses debugging. Pada area tersebut tempat untuk mengetes sebuah kode Swift yang ditulis.
+
+   ![](https://i.ibb.co/xYgDqws/17-Tabs.png)
+5. **Execute Playground**: Menjalankan keseluruhan kode pada playground yang kita buat.
+
+   Pada bagian ini Anda dapat menyettingnya apakah kita ingin otomatis run ketika ada perubahan atau manual menjalankan kode ketika diinginkan.
+
+   ![](https://i.ibb.co/z4bVxMq/18-Automatic-Manual.jpg)
+
+   a. **Automatically Run**: Xcode akan secara otomatis menjalankan kode kita kapanpun ketika ada perubahan di kode playground Anda.
+
+   b. **Manually Run**: Anda perlu mengklik button `play` untuk menjalankan sebuah playground yang Anda buat.
+
+Sekian yang dapat saya bagikan semoga bermanfaat.
