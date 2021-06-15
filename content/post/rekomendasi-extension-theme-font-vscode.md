@@ -119,15 +119,17 @@ Extensions ini berguna bila kita menulis sebuah text di dalam file markdown. San
 
 Extension ini berguna untuk memberitahukan apa saja kesalahan pada kode yang Anda tulis dengan sangat jelas. Biasanya ketika ada kesalahan kode, warning atau perlu improve pada Visual Studio Code itu sering tidak terlihat, jadi sering terabaikan. Dengan adanya extensi ini Saya bisa terbantu untuk memperbaiki kualitas dari kode Saya.
 
-{{< button url="[https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens "https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens")" text="Show Detail" >}}
+{{< button url="https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens" text="Show Detail" >}}
 
 ## 13. Thunder Client
 
-[thunder-client.gif?raw=true](https://github.com/rangav/thunder-client-support/blob/master/images/thunder-client.gif?raw=true "thunder-client.gif?raw=true")
+![](https://github.com/rangav/thunder-client-support/blob/master/images/thunder-client.gif?raw=true)
 
 Extensi ini bagi Saya juga berguna dapat meningkatkan produktifitas dalam mengerjakan sebuah pekerjaan yang berhubungan dengan coding yang komunikasi dengan API. Jika Anda sebelumnya sering melakukan pengetesan API lewat Postman atau sejenisnya, pasti Anda tidak akan asing lagi dalam penggunaan Thunder Client ini karena secara fungsi sama persis.
 
 Tapi ada kelebihan jika Anda pakai Thunder Client yaitu sudah satu program dengan text editor jadi tidak perlu bolak-balik ke app lain dalam pengetesan API. 
+
+{{< button url="https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client" text="Show Detail" >}}
 
 ## Theme
 
