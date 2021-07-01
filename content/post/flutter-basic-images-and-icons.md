@@ -35,12 +35,19 @@ Terus gimana cara implementasinya?
 
    Daftarkan lokasi asset pada pubspec.yaml dengan posisi yang tepat, lokasi `assets` property berada dalam child `flutter` property di pubspec, [more info](). Berikut contohnya:
 
-   ```dart
+   ```yaml
     flutter:
       assets:
       - assets/my_icon.png
       - assets/background.png   
    ```
+   Atau juga bisa lebih simpel mendeklarasikan asset di pubspec hanya nama foldernya saja, contoh:
+   ```yaml
+    flutter:
+      assets:
+      - assets/ 
+   ```
+   > Perlu diperhatikan ketika menggunakan folder wajib gunakan tanda garis miring (`/`) diakhir nama folder
 2. Implement code
 
    ```dart
@@ -182,4 +189,4 @@ Row(
 
 ### Custom Icon
 
-Di Flutter ini Anda dapat membuat sendiri icon sesuai dengan keinginan, misal jika Anda ingin membuat icon Home yang lebih unik, dan tidak ada di `MaterialIcons` maupun `CupertinoIcon` Anda dapat buat sendiri icon tersebut dari SVG ke font icon dengan bantuan tool https://www.fluttericon.com/. 
+Di Flutter ini Anda dapat membuat sendiri icon sesuai dengan keinginan, misal jika Anda ingin membuat icon Home yang lebih unik, dan tidak ada di `MaterialIcons` maupun `CupertinoIcon` Anda dapat buat sendiri icon tersebut dari SVG ke font icon dengan bantuan tool https://www.fluttericon.com/.
