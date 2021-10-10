@@ -1,0 +1,3 @@
+[submodule "themes/personal-site"]
+	path = themes/personal-site
+	url = https://github.com/wisnuwiry/personal-site
