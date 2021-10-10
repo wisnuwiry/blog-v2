@@ -9,13 +9,13 @@ This site use theme [Personal Site Theme Hugo](https://github.com/wisnuwiry/pers
 
 ## Instant Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/wisnuwiry/blog-v2)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/wisnuwiry/personal-site-demo)
 
-[![Deploy to Vercel](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/wisnuwiry/blog-v2)
+[![Deploy to Vercel](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/wisnuwiry/personal-site-demo)
 
 ## Content Management
 
-[![import to Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=wisnuwiry/blog-v2&engine=hugo&version=0.74.3)
+[![import to Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=wisnuwiry/personal-site-demo&engine=hugo&version=0.74.3)
 
 ## Feature:
 1. PWA
