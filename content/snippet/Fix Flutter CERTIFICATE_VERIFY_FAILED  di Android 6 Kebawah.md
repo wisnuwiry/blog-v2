@@ -2,7 +2,7 @@
 date = 2021-11-09T17:00:00Z
 series = []
 tags = ["tips", "snippet"]
-title = "Car Fix Flutter Error Http Request CERTIFICATE_VERIFY_FAILED "
+title = "Cara Fix Flutter Error Http Request CERTIFICATE_VERIFY_FAILED "
 toc = false
 
 +++
