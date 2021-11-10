@@ -33,6 +33,6 @@ Contoh implementasi:
 
 {{< rawhtml >}}
 </br>
-<iframe src="https://dartpad.dev/embed-flutter.html?id=4ac3f2a77b277deebd6ff76a37e007aa"></iframe>
+<iframe src="https://dartpad.dev/embed-flutter.html?id=4ac3f2a77b277deebd6ff76a37e007aa&null_safety=true&theme=dark" style="width:100%;height:500px; border: none;"></iframe>
 </br>
 {{< /rawhtml >}}
