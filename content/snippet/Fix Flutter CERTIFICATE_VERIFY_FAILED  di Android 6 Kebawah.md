@@ -8,6 +8,12 @@ toc = false
 +++
 Terkadang User ketika memakai aplikasi kita yang dibuat dengan Flutter mendapatkan error `CERTIFICATE_VERIFY_FAILED` ketika melakukan HIT API Request terutama ketika `POST` method. Permasalahan ini sering terjadi di Android versi 6 atau kebawah, tapi tidak semuanya atau random saja user yang mendapatkan error tersebut.
 
+Contoh errornya: 
+
+```bash
+HandshakeException: Handshake error in client (OS Error: CERTIFICATE_VERIFY_FAILED: certificate has expired(handshake.cc:354))
+```
+
 Untuk issue ini pada saat saya membuat artikel ini issue masalah `CERTIFICATE_VERIFY_FAILED` masih belum terpecahkan di Dart/Flutter, yang Anda bisa lihat di [github](https://github.com/flutter/flutter/issues/50699)
 
 Pada kali ini Saya membagikan pengalaman ketika memperbaiki masalah ini pada kasus saya sebelumnya. Kasus saya sebelumnya padahal `SSL`(Secure Socket Layer) masih aktif tapi issue `CERTIFICATE_VERIFY_FAILED` ini malah muncul di sebagian Android. Berikut solusi-solusi yang Saya dapatkan:
@@ -46,7 +52,7 @@ Jika Anda menggunakan [Dio](https://pub.dev/packages/dio) sebagai Http Client di
 
 ```dart
 void main() {
-  final dio = Dio();
+  final dio = Dio(); // variable ini yang akan anda gunakan untuk HIT API
   (dio.httpClientAdapter as DefaultHttpClientAdapter).onHttpClientCreate =
       (HttpClient client) {
     client.badCertificateCallback =
@@ -55,5 +61,7 @@ void main() {
   };
 }
 ```
+
+> Dan pastikan Anda membuat satu variable `Dio` yang Anda set ketika gagal memverifikasi cetificate, atau juga bisa menggunakan service locator atau dependency injection, yang nantinya akan diapakai ketika request ke server.
 
 Berikut penjelasan singkat untuk mengatasi masalah `CERTIFICATE_VERIFY_FAILED` di Flutter semoga dengan adanya ini bisa membantu Anda, Terima Kasih :)
