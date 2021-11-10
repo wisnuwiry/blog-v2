@@ -1,6 +1,5 @@
 +++
 date = 2021-11-09T17:00:00Z
-draft = true
 series = []
 tags = ["flutter", " tips"]
 title = "Cara Membuat Text Input Di Flutter Dengan Kapital Semua"
