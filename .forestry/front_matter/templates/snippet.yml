@@ -23,6 +23,7 @@ fields:
 pages:
 - content/snippet/Fix Flutter CERTIFICATE_VERIFY_FAILED  di Android 6 Kebawah.md
 - content/snippet/cara-build-apk-dan-appbundle-release-di-flutter.md
+- content/snippet/cara-membuat-text-input-di-flutter-dengan-kapital-semua.md
 - content/snippet/cara-mudah-menghilangkan-banner-debug-di-flutter.md
 - content/snippet/flutter-auto-collapse-expansiontile-after-choosing-an-item.md
 - content/snippet/flutter-caching-image-dengan-cachednetworkimage.md
