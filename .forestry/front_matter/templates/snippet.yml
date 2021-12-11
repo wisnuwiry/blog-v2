@@ -24,6 +24,7 @@ pages:
 - content/snippet/Fix Flutter CERTIFICATE_VERIFY_FAILED  di Android 6 Kebawah.md
 - content/snippet/bagaimana-cara-memformat-code-di-xcode.md
 - content/snippet/cara-build-apk-dan-appbundle-release-di-flutter.md
+- content/snippet/cara-fix-xcode-dan-flutter-tidak-bisa-pilih-simulator-di-custom-schema.md
 - content/snippet/cara-membuat-text-input-di-flutter-dengan-kapital-semua.md
 - content/snippet/cara-mudah-menghilangkan-banner-debug-di-flutter.md
 - content/snippet/flutter-auto-collapse-expansiontile-after-choosing-an-item.md
