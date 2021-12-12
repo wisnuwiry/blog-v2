@@ -5,7 +5,7 @@ theme = "personal-site"
 title = "Wisnuwiry"
 [Author]
 avatar = "img/avatar.webp"
-bio = "Flutter | Mobile Tech Enthusiast | Software Engineer at KodingWorks. Saya juga suka blogging dan mempelajari hal teknologi baru."
+bio = "Flutter | Mobile Tech Enthusiast | Software Engineer | Blogger. Seorang tukang ketik yang menghasilkan sebuah karya dan inovasi"
 donate = true
 email = "wisnuwiry@gmail.com"
 gender = "male"
@@ -103,11 +103,6 @@ identifier = "About"
 pre = "😃"
 url = "/about"
 weight = 5
-[[menu.main]]
-identifier = "Project"
-pre = "🚧"
-url = "/project"
-weight = 4
 [[menu.main]]
 identifier = "Snippet"
 pre = "⚒️"
