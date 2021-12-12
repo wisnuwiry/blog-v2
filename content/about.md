@@ -4,10 +4,8 @@ page: true
 ---
 Halo, perkenalkan nama saya Wisnu.
 
-Saya saat ini sebagai Software Engineer at KodingWorks dan juga sebagai mahasiswa di salah satu Universitas di Semarang.
+Saya seorang tukang ketik yang menghasilkan karya atau bahasa kerennya *Software Engineer* yang suka sekali di dunia perkodean, terutama teknologi Mobile.
 
-Saya sangat suka belajar dengan teknologi terbaru, terutama pada teknologi Mobile Development.
+Saya saat sedang mempelajari beberapa mobile tech [Flutter](//flutter.dev) dan [SwiftUI](https://developer.apple.com/xcode/swiftui/). Bisa juga anda melihat hasil karya-karya saya yang Open Source di [Github](//github.com/wisnuwiry) saya, atau juga bisa melihat profil lengkap saya bisa lihat di [linkedIn](//linkedin.com/in/wisnu-saputra).
 
-Dan saat ini lagi belajar [Flutter](//flutter.dev) sebaik alat untuk membuat sebuah Apps multi platform. Saya telah membuat beberapa project pribadi bisa lihat di [github](//github.com/wisnuwiry) saya, dan bisa juga lihat profil lengkap saya di [linkedIn](//linkedin.com/in/wisnu-saputra).
-
-Anda bisa menghubungi saya lewat halaman contactatau bisa lewat email saya [wisnuwiry@gmail.com](mailto:wisnuwiry@gmail.com).
+Cara terbaik untuk menghubungi saya bisa lewat [contact](/contact) atau email saya [wisnuwiry@gmail.com](mailto:wisnuwiry@gmail.com).
