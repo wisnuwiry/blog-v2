@@ -34,9 +34,9 @@ Sama seperti Android dan iOS ketika navigasi, widget, color, akan menyesuaikan p
 
 #### c. Support Apple Silicon atau M1
 
-![](https://i.ibb.co/qNb9hpW/flutter-mac-os-apple-silicon-m1.png)Sebelumnya untuk versi mac flutter SDK sudah stabil tapi masih versi universal. Jadi jika memakai perangkan mac dengan prosessor M series( M1 ) belum dioptimalkan. Sekarang sudah terdapat versi SDK baru untuk seri Arm/M1nya.
+![](https://i.ibb.co/qNb9hpW/flutter-mac-os-apple-silicon-m1.png)Sebelumnya untuk versi mac flutter SDK sudah stabil tapi masih versi universal. Jadi jika memakai perangkan mac dengan prosessor M series( M1 ) belum dioptimalkan. Sekarang sudah terdapat versi SDK baru untuk versi Arm/M1nya.
 
-### 2. 
+### 2.
 
 ### 3. Image Decoding Web
 
