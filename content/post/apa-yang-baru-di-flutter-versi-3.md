@@ -28,10 +28,31 @@ Akhirnya flutter dapat merelease semua platform desktop sudah stable(stabil), ya
 
 Seperti yang kita lihat di gambar tersebut di versi macOS dapat integrasi platform menu pada aplikasi Flutter, yang sebelumnya hal tersebut sangat sulit dilakukan kecuali membangun aplikasi menggunakan platform native macOS. Untuk cek contoh penggunaan bisa lihat di github [Example PlatformMenuBar](https://github.com/flutter/flutter/blob/master/examples/api/lib/material/platform_menu_bar/platform_menu_bar.0.dart "Example PlatformMenuBar Github").
 
+#### b. Aksebilitas di Semua Desktop sudah adaptive
+
+Sama seperti Android dan iOS ketika navigasi, widget, color, akan menyesuaikan platformnya. Begitu juga untuk yang versi desktop ini sudah dibekali adaptive/aksebilitas di navigasi, invert color, dan lainya
+
+#### c. Support Apple Silicon atau M1
+
+![](https://i.ibb.co/qNb9hpW/flutter-mac-os-apple-silicon-m1.png)Sebelumnya untuk versi mac flutter SDK sudah stabil tapi masih versi universal. Jadi jika memakai perangkan mac dengan prosessor M series( M1 ) belum dioptimalkan. Sekarang sudah terdapat versi SDK baru untuk seri Arm/M1nya.
+
 ### 2. 
+
+### 3. Image Decoding Web
+
+[https://youtu.be/w_ezWG1yKQQ?t=733](https://youtu.be/w_ezWG1yKQQ?t=733 "https://youtu.be/w_ezWG1yKQQ?t=733")
+
+### 4. Flutter Casual Game Toolkit
+
+[https://youtu.be/w_ezWG1yKQQ?t=1688](https://youtu.be/w_ezWG1yKQQ?t=1688 "https://youtu.be/w_ezWG1yKQQ?t=1688")
 
 ## Breaking Changes
 
 ![](https://miro.medium.com/max/1400/1*K1Ru7PVkH74N56hgjBTjjQ.png)
 
 ### 
+
+**Credits**:
+
+* [https://medium.com/flutter/whats-new-in-flutter-3-8c74a5bc32d0](https://medium.com/flutter/whats-new-in-flutter-3-8c74a5bc32d0 "https://medium.com/flutter/whats-new-in-flutter-3-8c74a5bc32d0")
+* [https://medium.com/flutter/introducing-flutter-3-5eb69151622f](https://medium.com/flutter/introducing-flutter-3-5eb69151622f "https://medium.com/flutter/introducing-flutter-3-5eb69151622f")
