@@ -3,14 +3,16 @@ languageCode = "id"
 summaryLength = 10
 theme = "personal-site"
 title = "Wisnuwiry"
+
 [Author]
 avatar = "img/avatar.webp"
-bio = "Flutter | Mobile Tech Enthusiast | Software Engineer | Blogger. Seorang tukang ketik yang menghasilkan sebuah karya dan inovasi"
+bio = "Flutter | Mobile Tech Enthusiast | Software Engineer | Blogger. Penggemar Teknologi di bidang Computer Science."
 donate = true
 email = "wisnuwiry@gmail.com"
 gender = "male"
 job = "Software Engineer"
 name = "Wisnu G. Saputra"
+
 [Params]
 GoogleAnalytics = "UA-147337173-1"
 authorbox = true
@@ -41,30 +43,37 @@ relatedMax = 5
 smallestFontSize = 1
 subTitle = "Personal site, Blog, and Portfolio"
 twitter_cards = true
+
 [Params.Breadcrumb]
 enable = true
 homeText = "Home"
+
 [Params.Comments]
 repository = "wisnuwiry/blog-v2"
+
 [Params.Entry]
 meta = ["date", "categories"]
 toc = true
 tocOpen = false
+
 [Params.Featured]
 previewOnly = false
+
 [Params.Hero]
-desc = "Welcome to my Blog :)"
-title = "A Personal Site By WisnuWiry"
+title = "Hello, I'm Wisnu G. Saputra"
+desc = "Seorang ~Software Engineer~ yang suka dengan berbagi."
+
 [Params.Manifest]
 backgroundColor = "#8dc153"
 description = "Personal Site By Wisnuwiry"
 display = "standalone"
-name = "Wisnuwiry"
+name = "Wisnuwiry Blog"
 orientation = "portrait"
 scope = "/"
 shortName = "Wisnuwiry"
 startUrl = "/?utm_source=homescreen"
 themeColor = "#1da1f2"
+
 [Params.Share]
 facebook = true
 linkedin = true
@@ -72,6 +81,7 @@ pinterest = true
 reddit = true
 telegram = true
 twitter = true
+
 [Params.Social]
 github = "wisnuwiry"
 gitlab = "wisnuwiry"
@@ -89,10 +99,12 @@ lineNumbersInTable = true
 noClasses = false
 style = "dracula"
 tabWidth = 4
+
 [markup.tableOfContents]
 endLevel = 3
 ordered = false
 startLevel = 2
+
 [[menu.main]]
 identifier = "Contact"
 pre = "🤙"
@@ -113,15 +125,18 @@ identifier = "Post"
 pre = "📝"
 url = "/post"
 weight = 2
+
 [outputFormats.MANIFEST]
 baseName = "manifest"
 isPlainText = true
 mediaType = "application/json"
 notAlternative = true
+
 [outputs]
 Paginate = 5
 enableRobotsTXT = true
 home = ["HTML", "RSS", "MANIFEST"]
+
 [related]
 includeNewer = true
 threshold = 0
