@@ -1,4 +1,4 @@
-[submodule "themes/pesonal-site"]
-	path = themes/pesonal-site
+[submodule "themes/personal-site"]
+	path = themes/personal-site
 	url = git@github.com:wisnuwiry/personal-site.git
 	branch = master
