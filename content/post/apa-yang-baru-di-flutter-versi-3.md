@@ -71,7 +71,7 @@ Di Flutter Casual Game Toolkit ini sudah include di templatenya:
 
 ### 5. Update Lainya
 
-Pada update flutter v3 masih banyak lagi yang diberbarui maupun di tambahkan pada SDK Flutter. Dan juga setiap release fitur baru sering sekali flutter udpate performa SDK. Berikut ada beberapa update lainya:
+Pada update flutter v3 masih banyak lagi yang diberbarui maupun di tambahkan pada SDK Flutter. Dan juga setiap release fitur baru sering sekali flutter update performa SDK. Berikut ada beberapa update lainya:
 
 - Update Dart SDK
 - Improvement Material 3
