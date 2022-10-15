@@ -35,6 +35,7 @@ pages:
 - content/post/flutter-firebase-setup-firebase-crashlytics.md
 - content/post/flutter-firebase-setup-firebase-performance.md
 - content/post/flutter-menampilkan-package-name-dan-build-version.md
+- content/post/flutter-navigation-v2.0-dengan-go-router.md
 - content/post/flutter-setup-firebase.md
 - content/post/flutter-state-management-dengan-rivedpod.md
 - content/post/membuat-localization-flutter-dengan-extensions-flutter_intl.md
