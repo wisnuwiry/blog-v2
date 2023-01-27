@@ -12,10 +12,6 @@ fields:
   type: tag_list
   default: []
   label: tags
-- name: series
-  type: tag_list
-  default: []
-  label: series
 - name: images
   type: list
   config:
