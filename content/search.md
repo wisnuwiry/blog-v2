@@ -5,6 +5,7 @@ description: Carilah dan tulis sesuatu kata kunci yang sesuai dengan keinginan A
 page: true
 search: true
 ---
-Carilah yang ingin Anda cari, dengan mengetikkan kata kunci di input di bawah ini, carilah sampai ketemu ya! :).
+
+Cari topik sesuai dengan kebutuhan Anda yang ada di situs ini dengan mengetikkan kata kunci di input di bawah ini, carilah sampai ketemu ya! :).
 
 Semoga membantu.

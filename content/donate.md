@@ -1,5 +1,5 @@
 ---
-title: Donate  ❤️
+title: "Donate  \U0001F496"
 date: 2020-11-22T14:32:05.000+07:00
 page: true
 

@@ -1,159 +1,150 @@
-baseURL = "https://wisnuwiry.space/"
-languageCode = "id"
-summaryLength = 10
-theme = "personal-site"
-title = "Wisnuwiry"
+baseURL                         = "https://wisnuwiry.space/"
+languageCode                    = "id"
+summaryLength                   = 10
+theme                           = "personal-site"
+title                           = "Wisnuwiry"
 
 [Author]
-avatar = "img/avatar.webp"
-bio = "Flutter | Mobile Tech Enthusiast | Software Engineer | Blogger. Penggemar Teknologi di bidang Computer Science."
-donate = true
-email = "wisnuwiry@gmail.com"
-gender = "male"
-job = "Software Engineer"
-name = "Wisnu G. Saputra"
+avatar                          = "img/avatar.webp"
+bio                             = "Mobile Tech Enthusiast | Software Engineer | Blogger. Penggemar Teknologi di bidang Computer Science."
+donate                          = true
+email                           = "wisnuwiry@gmail.com"
+gender                          = "male"
+job                             = "Software Engineer"
+name                            = "Wisnu G. Saputra"
 
 [Params]
-GoogleAnalytics = "UA-147337173-1"
-authorbox = true
-comments = true
-copyright = "Wisnuwiry"
-customJS = []
-customSearchId = "004021659876411083349:a2ysxpichpc"
-dateFormat = "January 02, 2006"
-description = "Sebuah catatan dan blog pribadi saya. Saya juga akan membagi tentang pengalaman saya dan teknologi-teknolgi yang saya gunakan/pelajari atau yang sedang populer."
-editContentPageLink = "https://github.com/wisnuwiry/blog-v2/edit/master/content/"
-endMessagePost = "Terdapat kesalahan penulisan, typo, ataupun juga kurang sesuai dalam penulisan, bantu Saya"
-fb_admins = 100023577212451
-fb_app_id = 192065405413624
-fontUnit = "em"
-formspreeId = "xjvperzz"
-googleSearchConsole = "DPzG0dF0bj2j3vTCIxUjOWLgW7skB2mX7J0DrX0_6bM"
-hideNoPostsWarning = false
-images = ["img/avatar.webp"]
-largestFontSize = 2.5
-mainMenuAlignment = "right"
-mainSections = ["post", "snippet"]
-mathjax = false
-opengraph = true
-paginateLength = 5
-projectSections = ["project"]
-related = true
-relatedMax = 5
-smallestFontSize = 1
-subTitle = "Personal site, Blog, and Portfolio"
-twitter_cards = true
+GoogleAnalytics                 = "UA-147337173-1"
+authorbox                       = true
+comments                        = true
+copyright                       = "Wisnuwiry"
+customJS                        = []
+customSearchId                  = "004021659876411083349:a2ysxpichpc"
+dateFormat                      = "January 02, 2006"
+description                     = "Sebuah catatan dan blog pribadi saya. Saya juga akan membagi tentang pengalaman saya dan teknologi-teknolgi yang saya gunakan/pelajari atau yang sedang populer."
+editContentPageLink             = "https://github.com/wisnuwiry/blog-v2/edit/master/content/"
+endMessagePost                  = "Jika terdapat kesalahan penulisan, typo, atau kurang sesuai dalam penulisan, bantu Saya untuk"
+fb_admins                       = 100023577212451
+fb_app_id                       = 192065405413624
+fontUnit                        = "em"
+formspreeId                     = "xjvperzz"
+googleSearchConsole             = "DPzG0dF0bj2j3vTCIxUjOWLgW7skB2mX7J0DrX0_6bM"
+hideNoPostsWarning              = false
+images                          = ["img/avatar.webp"]
+largestFontSize                 = 2.5
+mainMenuAlignment               = "right"
+mainSections                    = ["post", "snippet"]
+opengraph                       = true
+paginateLength                  = 5
+related                         = true
+relatedMax                      = 5
+smallestFontSize                = 1
+subTitle                        = "Personal Site"
+twitter_cards                   = true
 
 [Params.Breadcrumb]
-enable = true
-homeText = "Home"
+enable                          = true
+homeText                        = "Home"
 
 [Params.Comments]
-repository = "wisnuwiry/blog-v2"
+repository                      = "wisnuwiry/blog-v2"
 
 [Params.Entry]
-meta = ["date", "categories"]
-toc = true
-tocOpen = false
-
-[Params.Featured]
-previewOnly = false
+meta                            = ["date", "categories"]
+toc                             = true
+tocOpen                         = false
 
 [Params.Hero]
-title = "Hello, I'm Wisnu G. Saputra"
-desc = "Seorang ~Software Engineer~ yang suka dengan berbagi."
+title                           = "Hello, I'm Wisnu G. Saputra"
+desc                            = "Seorang ~Software Engineer~ yang suka dengan berbagi."
 
 [Params.Manifest]
-backgroundColor = "#8dc153"
-description = "Personal Site By Wisnuwiry"
-display = "standalone"
-name = "Wisnuwiry Blog"
-orientation = "portrait"
-scope = "/"
-shortName = "Wisnuwiry"
-startUrl = "/?utm_source=homescreen"
-themeColor = "#1da1f2"
+backgroundColor                 = "#8dc153"
+description                     = "Personal Site By Wisnuwiry"
+display                         = "standalone"
+name                            = "Wisnuwiry Blog"
+orientation                     = "portrait"
+scope                           = "/"
+shortName                       = "Wisnuwiry"
+startUrl                        = "/?utm_source=homescreen"
+themeColor                      = "#1da1f2"
 
 [Params.Share]
-facebook = true
-linkedin = true
-pinterest = true
-reddit = true
-telegram = true
-twitter = true
+facebook                        = true
+linkedin                        = true
+pinterest                       = true
+reddit                          = true
+telegram                        = true
+twitter                         = true
 
 [Params.Social]
-github = "wisnuwiry"
-gitlab = "wisnuwiry"
-linkedin = "wisnu-saputra"
-medium = "wisnuwiry"
-telegram = "wisnuwiry"
-twitter = "wisnuwiry"
+github                          = "wisnuwiry"
+gitlab                          = "wisnuwiry"
+linkedin                        = "wisnu-saputra"
+medium                          = "wisnuwiry"
+telegram                        = "wisnuwiry"
+twitter                         = "wisnuwiry"
+
 [markup.highlight]
-codeFences = true
-guessSyntax = false
-hl_Lines = ""
-lineNoStart = 1
-lineNos = true
-lineNumbersInTable = true
-noClasses = false
-style = "dracula"
-tabWidth = 4
+codeFences                      = true
+guessSyntax                     = false
+hl_Lines                        = ""
+lineNoStart                     = 1
+lineNos                         = true
+lineNumbersInTable              = true
+noClasses                       = false
+style                           = "dracula"
+tabWidth                        = 4
 
 [markup.tableOfContents]
-endLevel = 3
-ordered = false
-startLevel = 2
+endLevel                        = 3
+ordered                         = false
+startLevel                      = 2
 
 [[menu.main]]
-identifier = "Contact"
-pre = "🤙"
-url = "/contact"
-weight = 6
+identifier                      = "Series"
+pre                             = "📚"
+url                             = "/series"
+weight                          = 1
+
 [[menu.main]]
-identifier = "About"
-pre = "😃"
-url = "/about"
-weight = 5
+identifier                      = "Post"
+pre                             = "📝"
+url                             = "/post"
+weight                          = 2
+
 [[menu.main]]
-identifier = "Snippet"
-pre = "⚒️"
-url = "/snippet"
-weight = 3
+identifier                      = "Snippet"
+pre                             = "⚒️"
+url                             = "/snippet"
+weight                          = 3
+
 [[menu.main]]
-identifier = "Post"
-pre = "📝"
-url = "/post"
-weight = 2
+identifier                      = "About"
+pre                             = "😃"
+url                             = "/about"
+weight                          = 5
+
+[[menu.main]]
+identifier                      = "Contact"
+pre                             = "🤙"
+url                             = "/contact"
+weight                          = 6
 
 [outputFormats.MANIFEST]
-baseName = "manifest"
-isPlainText = true
-mediaType = "application/json"
-notAlternative = true
+baseName                        = "manifest"
+isPlainText                     = true
+mediaType                       = "application/json"
+notAlternative                  = true
 
 [outputs]
-Paginate = 5
-enableRobotsTXT = true
-home = ["HTML", "RSS", "MANIFEST"]
+Paginate                        = 5
+enableRobotsTXT                 = true
+home                            = ["HTML", "RSS", "MANIFEST"]
 
-[related]
-includeNewer = true
-threshold = 0
-toLower = false
-[[related.indices]]
-name = "categories"
-weight = 100
-[[related.indices]]
-name = "date"
-weight = 10
 [sitemap]
-changeFreqPage = "monthly"
-changefreq = "daily"
-filename = "sitemap.xml"
-priority = 1
-priorityPage = 0.5
-[taxonomies]
-category = "categories"
-series = "series"
-tags = "tags"
+changeFreqPage                  = "monthly"
+changefreq                      = "daily"
+filename                        = "sitemap.xml"
+priority                        = 1
+priorityPage                    = 0.5
