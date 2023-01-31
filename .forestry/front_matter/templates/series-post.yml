@@ -1,0 +1,40 @@
+---
+label: Series Post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: Date
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+- type: text
+  name: chapter_start
+  label: Chapter Start
+- name: images
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Images
+- name: weight
+  type: number
+  label: Weight
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 1
+    max: 
+    step: 
+    required: true
+- name: image
+  type: text
+  config:
+    required: false
+  label: Image
