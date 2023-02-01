@@ -1,6 +1,6 @@
 +++
 date = 2022-05-12T01:00:00Z
-featured = true
+featured = false
 images = ["https://i.ibb.co/Vx67K0j/whats-new-flutter-v3-banner.webp"]
 series = []
 tags = ["flutter", "new-version", "flutter3"]
