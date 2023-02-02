@@ -41,6 +41,7 @@ relatedMax                      = 5
 smallestFontSize                = 1
 subTitle                        = "Personal Site"
 twitter_cards                   = true
+adsenseId                       = "ca-pub-5716214409772312"
 
 [Params.Breadcrumb]
 enable                          = true

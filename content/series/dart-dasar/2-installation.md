@@ -127,7 +127,7 @@ Setelah semua proses sudah selesai dilakukan Install SDK dan juga Code Editor. H
 1. Klik menu disamping kiri `Extensions` yang gambarnya seperti kubus
 1. Ketika keyword dart pada daftar extensions
 1. Klik install di extensi `dart`
-1. Semua proses install sudah selesa... horay
+1. Semua proses install sudah selesai... horay
 
 ![How to Install Plugin Dart on VS Code](/series/dart-dasar/install/install_plugin.png)
 
@@ -137,4 +137,4 @@ Untuk beberapa plugin yang saya rekomendasikan install, bisa lihat artikel lain 
 
 - https://dart.dev/get-dart
 
-Setelah selesai menginstall dart di setup semua kebutuhan yang diperlukan, jangan lupa paneting semua perkembangan materi-materinya ya supaya tambah jago, hehe...
+Setelah selesai menginstall dart di setup semua kebutuhan yang diperlukan, jangan lupa pantingin semua perkembangan materi-materinya ya supaya tambah jago, hehe...
