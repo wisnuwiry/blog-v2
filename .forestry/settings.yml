@@ -5,6 +5,13 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: content/series
+  label: series
+  create: all
+  match: "**/*"
+  templates:
+  - series-post
+- type: directory
   path: content
   label: Pages
   create: all
