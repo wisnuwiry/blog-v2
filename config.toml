@@ -1,11 +1,11 @@
-baseURL                         = "https://wisnuwiry.space/"
+baseURL                         = "https://wisnuwiry.netlify.app/"
 languageCode                    = "id"
 summaryLength                   = 10
 theme                           = "personal-site"
 title                           = "Wisnuwiry"
 
 [Author]
-avatar                          = "img/avatar.webp"
+photo                          = "/img/avatar.webp"
 bio                             = "Mobile Tech Enthusiast | Software Engineer | Blogger. Penggemar Teknologi di bidang Computer Science."
 donate                          = true
 email                           = "wisnuwiry@gmail.com"
